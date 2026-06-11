@@ -1,0 +1,27 @@
+# Portfolio news monitor settings.
+# The pipeline collects recent public news and classifies each item as positive, negative, or neutral.
+lookback_days: 7
+max_news_per_holding: 12
+max_market_news: 20
+language: zh-CN
+country: CN
+
+risk:
+  high_negative_count: 3
+  high_negative_score: -5
+  positive_review_score: 4
+  max_single_asset_target_weight: 0.25
+
+sources:
+  google_news_rss:
+    enabled: true
+    timeout_seconds: 5
+  gdelt:
+    enabled: false
+    timeout_seconds: 5
+
+market_queries:
+  - A股 市场 政策 利好 利空
+  - 基金 市场 风险 机会
+  - 央行 利率 股市 基金
+  - 新能源 消费 科技 金融 股市

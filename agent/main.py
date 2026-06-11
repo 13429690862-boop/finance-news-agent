@@ -9,6 +9,7 @@ from typing import Any
 from agent.collect import run_real_collection
 from agent.config import flatten_queries, load_queries, queries_for_source
 from agent.pipeline import run_daily_pipeline, run_fixture_pipeline
+from agent.finance_pipeline import run_finance_daily_pipeline
 from agent.report import generate_markdown_report
 from agent.score import calculate_opportunity_score, classify_priority
 from agent.sources.gdelt import GDELTCollector
@@ -126,11 +127,13 @@ def run_collect_stackexchange() -> Path:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["test-fixture","collect-fixture","analyze-fixture","collect-hn","collect-gdelt","collect-stackexchange","collect-real","daily","recall-diagnostics","optimize-queries","production-audit","secrets-audit","ai-provider-check","delivery-check","config-audit","env-inventory"], required=True)
+    parser.add_argument("--mode", choices=["test-fixture","collect-fixture","analyze-fixture","collect-hn","collect-gdelt","collect-stackexchange","collect-real","daily","recall-diagnostics","optimize-queries","production-audit","secrets-audit","ai-provider-check","delivery-check","config-audit","env-inventory","finance-daily"], required=True)
     parser.add_argument("--json-summary", action="store_true")
     parser.add_argument("--send-report-to-test-recipient", action="store_true")
     parser.add_argument("--profile", default="no_secret_default", choices=["no_secret_default","ai_provider_dry_run","deepseek_coarse_dry_run","delivery_test_recipient","full_test_dry_run"])
     parser.add_argument("--provider", default="all", choices=["all", "deepseek", "openai", "openai_responses"])
+    parser.add_argument("--portfolio", default="configs/portfolio.yaml")
+    parser.add_argument("--finance-config", default="configs/finance.yaml")
     args = parser.parse_args()
     if args.mode == "test-fixture": print(f"Generated report: {run_test_fixture()}")
     elif args.mode == "collect-fixture": run_collect_fixture()
@@ -192,6 +195,15 @@ def main() -> None:
             print(json.dumps(delivery_check_send(cfg, report_path, summary_path), indent=2, ensure_ascii=False, sort_keys=True))
         else:
             print(json.dumps(delivery_dry_run_check(cfg), indent=2, ensure_ascii=False, sort_keys=True))
+    elif args.mode == "finance-daily":
+        json_path = Path("reports") / "daily-finance-summary.json" if args.json_summary else None
+        summary = run_finance_daily_pipeline(
+            portfolio_path=args.portfolio,
+            finance_config_path=args.finance_config,
+            markdown_report_path=Path("reports/daily-finance-report.md"),
+            json_summary_path=json_path,
+        )
+        print(json.dumps(summary, indent=2, ensure_ascii=False, sort_keys=True))
     elif args.mode == "config-audit":
         _print_json_or_config_error(build_config_audit)
     elif args.mode == "env-inventory":
