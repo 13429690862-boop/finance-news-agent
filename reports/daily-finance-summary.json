@@ -1,0 +1,1489 @@
+{
+  "assessments": [
+    {
+      "action": "hold",
+      "advice": "维持纪律：消息面不足以支持重大调整，按既定资产配置和风险承受能力执行。",
+      "asset_type": "fund",
+      "market": "CN-ETF",
+      "name": "沪深300ETF",
+      "negative_count": 0,
+      "net_sentiment_score": 0,
+      "neutral_count": 0,
+      "positive_count": 0,
+      "rationale": [
+        "近期消息面没有形成明确方向，维持纪律化观察。"
+      ],
+      "risk_level": "low",
+      "symbol": "510300",
+      "top_negative_news": [],
+      "top_neutral_news": [],
+      "top_positive_news": []
+    },
+    {
+      "action": "hold",
+      "advice": "维持纪律：消息面不足以支持重大调整，按既定资产配置和风险承受能力执行。",
+      "asset_type": "stock",
+      "market": "CN-A",
+      "name": "贵州茅台",
+      "negative_count": 0,
+      "net_sentiment_score": 0,
+      "neutral_count": 0,
+      "positive_count": 0,
+      "rationale": [
+        "近期消息面没有形成明确方向，维持纪律化观察。"
+      ],
+      "risk_level": "low",
+      "symbol": "600519",
+      "top_negative_news": [],
+      "top_neutral_news": [],
+      "top_positive_news": []
+    }
+  ],
+  "disclaimer": "Rule-based research aid only; not guaranteed returns or individualized suitability advice.",
+  "generated_at": "2026-06-11T06:35:34Z",
+  "market_news": [
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2026-05-05T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空",
+        "impact:政策"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新京报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rSTBLYlNnMUhDQjhkZGRCTVNJaTVVT2psNzAyYktfTDRwSUhTZjNpalhGTlItRm1tMWN5NUE5TmFZenloNGxGV2J6NGcyU3FTYVVLYlg5M0dEcVVpand1SWpB?oc=5\" target=\"_blank\">利好与利空交织、政策定调“四稳” 节后A股如何走？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新京报</font>",
+      "title": "利好与利空交织、政策定调“四稳” 节后A股如何走？ - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rSTBLYlNnMUhDQjhkZGRCTVNJaTVVT2psNzAyYktfTDRwSUhTZjNpalhGTlItRm1tMWN5NUE5TmFZenloNGxGV2J6NGcyU3FTYVVLYlg5M0dEcVVpand1SWpB?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-08T02:46:06+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQdFpMQ2tHc0JwMEJWMnZtQkNSbmtpWEMwZDNtMTc1cHpMZ0Z5Tkxyei1MTHdNYUplQUhBb3JyX1RCUGhld0JKQUF1SGdSZUxQZWp6Um1zVUlQSGt6Z3U5QWY4dXVXUkRvNnhqbjVGaHhQcy1MZUNsbHMxZjAwOUprTTRyV1pabkoza1o1N19UcmptQkRuWlpJb1dLZmVibUluWUxndE1fZlAtbTl1SlZRYQ?oc=5\" target=\"_blank\">【市场聚焦】股指：AI“地震”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "【市场聚焦】股指：AI“地震” - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdFpMQ2tHc0JwMEJWMnZtQkNSbmtpWEMwZDNtMTc1cHpMZ0Z5Tkxyei1MTHdNYUplQUhBb3JyX1RCUGhld0JKQUF1SGdSZUxQZWp6Um1zVUlQSGt6Z3U5QWY4dXVXUkRvNnhqbjVGaHhQcy1MZUNsbHMxZjAwOUprTTRyV1pabkoza1o1N19UcmptQkRuWlpJb1dLZmVibUluWUxndE1fZlAtbTl1SlZRYQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-03T08:05:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "雪球",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9na1J6Rm94VFVLRWdoZ2Z4bFhEbGtuaTJXR3FxMHFDN0lTS0Q1R0pWcjI5X3JxS2JHMHhMQjlza2RGVkF2MTlfOWs0dE5qUGJP?oc=5\" target=\"_blank\">冰火两重天！指数红盘3700股却跌，接下来唯一能赚钱的方向是？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">雪球</font>",
+      "title": "冰火两重天！指数红盘3700股却跌，接下来唯一能赚钱的方向是？ - 雪球",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9na1J6Rm94VFVLRWdoZ2Z4bFhEbGtuaTJXR3FxMHFDN0lTS0Q1R0pWcjI5X3JxS2JHMHhMQjlza2RGVkF2MTlfOWs0dE5qUGJP?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-05-17T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "财经号",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9GUUo3N1ppQndSN0dOZ0V4MlBOYklFN3Y3aG0tNk5yeFZBa0x6b2JlSV9kX082aUJ6NUQwTjQwQVppRlpLYWQwUW82VXd1NEdxR0ZVdE1YUFQ4Um1QVVpBdHdkSU5BSm10S0E?oc=5\" target=\"_blank\">三大利好与四大利空解析 下周策略</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财经号</font>",
+      "title": "三大利好与四大利空解析 下周策略 - 财经号",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GUUo3N1ppQndSN0dOZ0V4MlBOYklFN3Y3aG0tNk5yeFZBa0x6b2JlSV9kX082aUJ6NUQwTjQwQVppRlpLYWQwUW82VXd1NEdxR0ZVdE1YUFQ4Um1QVVpBdHdkSU5BSm10S0E?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2026-01-29T08:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "财富号",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5ybkhIdzA5TlNiWnMxbHFUdHl2X01rZkhTSGV2OEc0TUczME5raVk4djVuZ1Vjc0hPVTBfb3I4eDRSWEVERm1EdjM3WHhheWhCdENNYmRJd3VYSjN0UmpUYkNnd3pIMkVFX2hV?oc=5\" target=\"_blank\">权重拉胯题材崩！国务院利好加持，明天A股能否打破魔咒？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财富号</font>",
+      "title": "权重拉胯题材崩！国务院利好加持，明天A股能否打破魔咒？ - 财富号",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ybkhIdzA5TlNiWnMxbHFUdHl2X01rZkhTSGV2OEc0TUczME5raVk4djVuZ1Vjc0hPVTBfb3I4eDRSWEVERm1EdjM3WHhheWhCdENNYmRJd3VYSjN0UmpUYkNnd3pIMkVFX2hV?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-10-10T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Dd0pKb1pPWFVFRE0tTXlGdm5nZjhlWFBWeG5wYjl4OURwRkwyNmx1ZzZnX01fdlZ6UENVQS1SUXZidGU2eFZvZjZGaGRVc2x6MW9QOUdSNERFUGRh?oc=5\" target=\"_blank\">科技股遭遇抛压！市场主线是否生变？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "科技股遭遇抛压！市场主线是否生变？ - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Dd0pKb1pPWFVFRE0tTXlGdm5nZjhlWFBWeG5wYjl4OURwRkwyNmx1ZzZnX01fdlZ6UENVQS1SUXZidGU2eFZvZjZGaGRVc2x6MW9QOUdSNERFUGRh?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-08-18T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "Sina finance",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlhqSV80WWF4LWk3enhrSGx0OVVGcFVaRnNXTXprc19rTnNuNm9OSVpyOVIwbzRsMk81UlV3OG01U1NpZnFXa0I2MHlxSk1ZWjRJaW1KcEZoNWpqNEVYSTA1ZktZelpiX2xZWlBxMTNyQmhIVXlUZTZsTlItWFpmTVh3a3ZYdkpPdWRCcXVR?oc=5\" target=\"_blank\">中金：美联储降息对我们是利好还是利空？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sina finance</font>",
+      "title": "中金：美联储降息对我们是利好还是利空？ - Sina finance",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlhqSV80WWF4LWk3enhrSGx0OVVGcFVaRnNXTXprc19rTnNuNm9OSVpyOVIwbzRsMk81UlV3OG01U1NpZnFXa0I2MHlxSk1ZWjRJaW1KcEZoNWpqNEVYSTA1ZktZelpiX2xZWlBxMTNyQmhIVXlUZTZsTlItWFpmTVh3a3ZYdkpPdWRCcXVR?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-03-24T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9faTVjNFFaSFFhUGtqTnhxUk8xMllhOFFMNjZYbHBlTjluam1IS3lnblJvU21BZ2ZaTkF4dndCWXhHbDhNZHNnZWp6ZE5vV0hTRmRnRGE1aFFOblExRmxXT1dUdnFqcWVYWEdCanNiM05mczEtblhBWA?oc=5\" target=\"_blank\">操盘必读：影响股市利好或利空消息_2026年3月24日_财经新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "操盘必读：影响股市利好或利空消息_2026年3月24日_财经新闻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9faTVjNFFaSFFhUGtqTnhxUk8xMllhOFFMNjZYbHBlTjluam1IS3lnblJvU21BZ2ZaTkF4dndCWXhHbDhNZHNnZWp6ZE5vV0hTRmRnRGE1aFFOblExRmxXT1dUdnFqcWVYWEdCanNiM05mczEtblhBWA?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-04T07:56:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "雪球",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kMEZOR0tMSElEV0w4dUZRd0NyUFRaSEZJQzZyRm9samhHc2pzQVhkYTR3S1BlUllySkFVdHFBR2tTN0JWdjdvM2U2cEpPek8w?oc=5\" target=\"_blank\">为什么内资在砸AI，外资却在买电力？看懂这波资金腾挪?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">雪球</font>",
+      "title": "为什么内资在砸AI，外资却在买电力？看懂这波资金腾挪? - 雪球",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kMEZOR0tMSElEV0w4dUZRd0NyUFRaSEZJQzZyRm9samhHc2pzQVhkYTR3S1BlUllySkFVdHFBR2tTN0JWdjdvM2U2cEpPek8w?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-02-26T10:59:02+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "PANews",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE00eU1qTTZYUWU2SllOQkd0dExJYVFWSzF2ZlVFZWxfejNCVm5GcWRsSkZ5WWp6c3JFaHl2OWxBc2t3S1F0R0F2Z043b3hpb3FHNU1QWVFFYjdPdXIwWW5PRlNHUXB2ODBVWnJPMWVrLVFJbEdFQW0zV0UwNmhqR0E?oc=5\" target=\"_blank\">2026投资必读圣经：一口气看完高盛、摩根等12家顶级外资行全年展望</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PANews</font>",
+      "title": "2026投资必读圣经：一口气看完高盛、摩根等12家顶级外资行全年展望 - PANews",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00eU1qTTZYUWU2SllOQkd0dExJYVFWSzF2ZlVFZWxfejNCVm5GcWRsSkZ5WWp6c3JFaHl2OWxBc2t3S1F0R0F2Z043b3hpb3FHNU1QWVFFYjdPdXIwWW5PRlNHUXB2ODBVWnJPMWVrLVFJbEdFQW0zV0UwNmhqR0E?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-03-10T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1RQWxhQjJoSjRka2tSNTQ2aXF4SFp5SXVoN2NCbDhONWxDVUo0UW1DdlpBLUV2MF82NXMtTGtZNGlFODdWZnpyOXE3aDRRVEwtRktfY2xCRlJhNkU4bmJYLTZISWF6UEw4azdFNVFXd21La0pQenljRw?oc=5\" target=\"_blank\">操盘必读：影响股市利好或利空消息_2026年3月10日_财经新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "操盘必读：影响股市利好或利空消息_2026年3月10日_财经新闻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1RQWxhQjJoSjRka2tSNTQ2aXF4SFp5SXVoN2NCbDhONWxDVUo0UW1DdlpBLUV2MF82NXMtTGtZNGlFODdWZnpyOXE3aDRRVEwtRktfY2xCRlJhNkU4bmJYLTZISWF6UEw4azdFNVFXd21La0pQenljRw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-04-20T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5QR2JEa193d0RYWEd4X1FoNk83c0dKYUdkcnRGOFFveXNNdUhqRFAtZERvV2s2R2o3NzJ3U3RvOFFxVXNtcjc2d1ZMakZzYTFWYl9DRE84T1Q5OEYybEJrYm9nWXV0QWZSbjZYSXNmM3llRXlkQnNhcQ?oc=5\" target=\"_blank\">操盘必读：影响股市利好或利空消息_2026年4月20日_财经新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "操盘必读：影响股市利好或利空消息_2026年4月20日_财经新闻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5QR2JEa193d0RYWEd4X1FoNk83c0dKYUdkcnRGOFFveXNNdUhqRFAtZERvV2s2R2o3NzJ3U3RvOFFxVXNtcjc2d1ZMakZzYTFWYl9DRE84T1Q5OEYybEJrYm9nWXV0QWZSbjZYSXNmM3llRXlkQnNhcQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-04-01T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE04VWowdFhZYXJVYkk0eExxbTFzajlhLVA0ak9qVHloRWpmV1pTYnU3RFpkUkk0NnVGaW1HLTExcFhiTXI4a2RLY3NNRHFTWmVYLUhtdjlMSDRSM2ZRSVZvMWlGR2xibUhNZ1Z0aDNCc1AwM1BZNmRDcg?oc=5\" target=\"_blank\">操盘必读：影响股市利好或利空消息_2026年4月1日_财经新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "操盘必读：影响股市利好或利空消息_2026年4月1日_财经新闻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE04VWowdFhZYXJVYkk0eExxbTFzajlhLVA0ak9qVHloRWpmV1pTYnU3RFpkUkk0NnVGaW1HLTExcFhiTXI4a2RLY3NNRHFTWmVYLUhtdjlMSDRSM2ZRSVZvMWlGR2xibUhNZ1Z0aDNCc1AwM1BZNmRDcg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-03-23T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9LaWlOcHdEVE0wWFhHTjkyNWZOYjZwU2J1S0hQc1Q3WURpTGZQTFlmQTFZQm5jZ1pxc2M1RS1kVUVrbzN5NHZZVTlBS1BjbEhlYVZSTVQxSnh0VGQzRVpNMHBsRWFxc0F4WUlQRklsTmZIdlgyRWVneg?oc=5\" target=\"_blank\">操盘必读：影响股市利好或利空消息_2026年3月23日_财经新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "操盘必读：影响股市利好或利空消息_2026年3月23日_财经新闻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9LaWlOcHdEVE0wWFhHTjkyNWZOYjZwU2J1S0hQc1Q3WURpTGZQTFlmQTFZQm5jZ1pxc2M1RS1kVUVrbzN5NHZZVTlBS1BjbEhlYVZSTVQxSnh0VGQzRVpNMHBsRWFxc0F4WUlQRklsTmZIdlgyRWVneg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-03-16T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1VSmJ4VU9RNGR4WmlRQXlULTZ4bDUycDZjSTJIZ0l0UEVBUExHcFZqcVZsTkFqbDN0UkZIMEdsWkwxcDdTQXItOFZqbTBoWmJzXzBnQWJ4dUhvZlBMb0VzSERmQ0g0T0FNMUxTSmdVREJ2VVU3ZzFaNg?oc=5\" target=\"_blank\">操盘必读：影响股市利好或利空消息_2026年3月16日_财经新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "操盘必读：影响股市利好或利空消息_2026年3月16日_财经新闻 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VSmJ4VU9RNGR4WmlRQXlULTZ4bDUycDZjSTJIZ0l0UEVBUExHcFZqcVZsTkFqbDN0UkZIMEdsWkwxcDdTQXItOFZqbTBoWmJzXzBnQWJ4dUhvZlBMb0VzSERmQ0g0T0FNMUxTSmdVREJ2VVU3ZzFaNg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-01-27T08:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "negative:利空"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "手机新浪网",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fZDhkQWY5cFBueTZLc0pwZkJWNkdkUndyZlJRWjZ6WllIbzdVaGhSQldQbWRscmZGYm5xQ1ZwUUpLYnZyNzB4NVBUNnFSVmdwWVNqNEJ1dldGNnlFYTJSTlJUSQ?oc=5\" target=\"_blank\">A股个股利好利空消息_新浪新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">手机新浪网</font>",
+      "title": "A股个股利好利空消息_新浪新闻 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fZDhkQWY5cFBueTZLc0pwZkJWNkdkUndyZlJRWjZ6WllIbzdVaGhSQldQbWRscmZGYm5xQ1ZwUUpLYnZyNzB4NVBUNnFSVmdwWVNqNEJ1dldGNnlFYTJSTlJUSQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "手机新浪网",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE02RWtXYm1CRklXVEw5YmlDUmJDZ2RkTVF2bGNsX1FRVGU5V0hJM3BiQW9LT011WkdDeVJ0d1ZnX1M3eTdLdlR3Y3VOcUZCZ2Q4QnRnWnU4MzlpRTNmWjFSU29mQQ?oc=5\" target=\"_blank\">A股开盘消息梳理_新浪新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">手机新浪网</font>",
+      "title": "A股开盘消息梳理_新浪新闻 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02RWtXYm1CRklXVEw5YmlDUmJDZ2RkTVF2bGNsX1FRVGU5V0hJM3BiQW9LT011WkdDeVJ0d1ZnX1M3eTdLdlR3Y3VOcUZCZ2Q4QnRnWnU4MzlpRTNmWjFSU29mQQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 3,
+      "published_at": "2026-01-30T08:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好",
+        "impact:政策"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "手机新浪网",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xdVpscG42RXJlbndjMVVxYWp0emNISzZQcDFjYVBFakN5dU9wa05uR2FVZmhPN0g5RVN3X09ENmtWVzlFV1ZmdWdseWhBclBxSVdwTlc3RzdFc2lGM2FJRDRUOA?oc=5\" target=\"_blank\">商业航天板块获政策利好_新浪新闻</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">手机新浪网</font>",
+      "title": "商业航天板块获政策利好_新浪新闻 - 手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0xdVpscG42RXJlbndjMVVxYWp0emNISzZQcDFjYVBFakN5dU9wa05uR2FVZmhPN0g5RVN3X09ENmtWVzlFV1ZmdWdseWhBclBxSVdwTlc3RzdFc2lGM2FJRDRUOA?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-10-28T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "EBC Financial Group",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mLUhXanE1eXZDLWNBdkJFM3BpWFF6WVNkQUk2X0Z2ZWFhWF9yN0xCd0RHeUgzOHNMN1J6cDZwWngtNklFODdhMFJNY0VtZ1JaQzI1RnhzcjA?oc=5\" target=\"_blank\">股票开高走低原因有哪些?短期关注重点看这里</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EBC Financial Group</font>",
+      "title": "股票开高走低原因有哪些?短期关注重点看这里 - EBC Financial Group",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mLUhXanE1eXZDLWNBdkJFM3BpWFF6WVNkQUk2X0Z2ZWFhWF9yN0xCd0RHeUgzOHNMN1J6cDZwWngtNklFODdhMFJNY0VtZ1JaQzI1RnhzcjA?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-09-20T07:00:00+00:00",
+      "query": "A股 市场 政策 利好 利空",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUt5UjBRZ0hFWWtNamVKZF9KbmM2OXdjOGVmTFFJdGpNRUQxV1dCczVkaHozMlRkUVNtNG9DNHNEU2ZHaXIxcUxiTGYtS0pUQWwzMjJDS0lZSktfYmpIeE5EV1M1SzUzS1ZKcWJNR0VBOUt0VFg5NklNZ2V1cllDMjRoNE12S08wU05qQklQRQ?oc=5\" target=\"_blank\">“破顶反跌”戏码重演，3900点攻而不破有何玄机？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "“破顶反跌”戏码重演，3900点攻而不破有何玄机？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUt5UjBRZ0hFWWtNamVKZF9KbmM2OXdjOGVmTFFJdGpNRUQxV1dCczVkaHozMlRkUVNtNG9DNHNEU2ZHaXIxcUxiTGYtS0pUQWwzMjJDS0lZSktfYmpIeE5EV1M1SzUzS1ZKcWJNR0VBOUt0VFg5NklNZ2V1cllDMjRoNE12S08wU05qQklQRQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-10T03:05:09+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ3FtUy1FdjNkRDViMXAxbjM4MjBfanJxVnZYYlF3anhNeFVRT0UtNXA5bDFiOHRUaVZiTVBNT3Z4bmlhTXJWNDZKSk1udFlkY0pkc0piMUMtd18tbldVeWZSZ1c2R1JXMHJXMC1GMHhUZlhYU3Etd0J3QlJEdHJOXzFHNEliamNLa0c1aG9rS2ZNUmM1eEpJdA?oc=5\" target=\"_blank\">周期轮动下多元配置迎机遇 银华华瑞 FOF正在发行中</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "周期轮动下多元配置迎机遇 银华华瑞 FOF正在发行中 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ3FtUy1FdjNkRDViMXAxbjM4MjBfanJxVnZYYlF3anhNeFVRT0UtNXA5bDFiOHRUaVZiTVBNT3Z4bmlhTXJWNDZKSk1udFlkY0pkc0piMUMtd18tbldVeWZSZ1c2R1JXMHJXMC1GMHhUZlhYU3Etd0J3QlJEdHJOXzFHNEliamNLa0c1aG9rS2ZNUmM1eEpJdA?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-11-20T08:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5Kei1FYy1yb2U4QWNBSjNaZzNJY0F3QUZHam9XUmo3SDMyai1mcmJfUXJ0eXVwdG9UZDRzSi0tOTRJX3FYQXpjeGM4MkZ4TmNqdm1yYnF3SGlMMmZKRmpjU3BUTUVHSnJYTFpfWndPekMyZG9hdV9vRER3?oc=5\" target=\"_blank\">A股市场展望与消费主题的投资机会</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "A股市场展望与消费主题的投资机会 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Kei1FYy1yb2U4QWNBSjNaZzNJY0F3QUZHam9XUmo3SDMyai1mcmJfUXJ0eXVwdG9UZDRzSi0tOTRJX3FYQXpjeGM4MkZ4TmNqdm1yYnF3SGlMMmZKRmpjU3BUTUVHSnJYTFpfWndPekMyZG9hdV9vRER3?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-01-27T08:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "紫牛新闻",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE83VkJGcGxpZzE0bEhQOFl2Vl9jMVJLWENuVUNZMnFMdUx2MlQ4V3FNaVQ4TURCZ0s4TVJUSUl6SUtKQVVGZ3BtZkQ1WnR5dmZQeHZwZ1Z5Vk5WdUZIalVsLW5qWHd6dEZp?oc=5\" target=\"_blank\">白银LOF暂停申购，普通人痛失“上车”机会？40%-50%高溢价背后，警惕情绪泡沫“刺破”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">紫牛新闻</font>",
+      "title": "白银LOF暂停申购，普通人痛失“上车”机会？40%-50%高溢价背后，警惕情绪泡沫“刺破” - 紫牛新闻",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83VkJGcGxpZzE0bEhQOFl2Vl9jMVJLWENuVUNZMnFMdUx2MlQ4V3FNaVQ4TURCZ0s4TVJUSUl6SUtKQVVGZ3BtZkQ1WnR5dmZQeHZwZ1Z5Vk5WdUZIalVsLW5qWHd6dEZp?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-12-15T08:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "negative:风险"
+      ],
+      "sentiment": "negative",
+      "sentiment_score": -1,
+      "source": "雪球",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LQ2hHcnBtWktWMFp6WmhGNmlWODhWR2VQTkltbFRMZVp2di1qTWF4S1BsMUVEUVBRaW45Rm9zMzdrSUtvd210U3JoN0YxT3o1?oc=5\" target=\"_blank\">LOF基金套利：一场低风险的“捡钱游戏”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">雪球</font>",
+      "title": "LOF基金套利：一场低风险的“捡钱游戏” - 雪球",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9LQ2hHcnBtWktWMFp6WmhGNmlWODhWR2VQTkltbFRMZVp2di1qTWF4S1BsMUVEUVBRaW45Rm9zMzdrSUtvd210U3JoN0YxT3o1?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-05-11T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5Ddzl0aklfTWxycmphalRGWVBsOTFiYnlRSHBiS2V2V3lZSmZWMjN1NkJsWjUybWw5OFJnV3NGa0FVQ1hqaGhVWTQzNTFzRHlFMTBHTUNpSUVSVlpvZDBzWmx2Z3B0MklucnIzcXAtY0tZc2NJdng2U2VR?oc=5\" target=\"_blank\">泉果基金杜凡：以成长为主线、以价值为底色，在科技浪潮中寻找确定性机会</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "泉果基金杜凡：以成长为主线、以价值为底色，在科技浪潮中寻找确定性机会 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Ddzl0aklfTWxycmphalRGWVBsOTFiYnlRSHBiS2V2V3lZSmZWMjN1NkJsWjUybWw5OFJnV3NGa0FVQ1hqaGhVWTQzNTFzRHlFMTBHTUNpSUVSVlpvZDBzWmx2Z3B0MklucnIzcXAtY0tZc2NJdng2U2VR?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-02T01:56:12+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE9CYVhpeDB1U2hhRWw0QUJyd29NaUZfOFNPQ3o5dnY4MVREdmtNQXhnbmM3aTVYR3p6WGlMMTlveGtZb2NrQ2g5Tm5WYnZ2NEdyc0lPVWU3dmF4NHprcGZ0b2gwcGVNamJnS2pBaklGQQ?oc=5\" target=\"_blank\">摩根士丹利基金：市场机会预计会由少数核心方向向更多科技方向扩散</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "摩根士丹利基金：市场机会预计会由少数核心方向向更多科技方向扩散 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9CYVhpeDB1U2hhRWw0QUJyd29NaUZfOFNPQ3o5dnY4MVREdmtNQXhnbmM3aTVYR3p6WGlMMTlveGtZb2NrQ2g5Tm5WYnZ2NEdyc0lPVWU3dmF4NHprcGZ0b2gwcGVNamJnS2pBaklGQQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-06-01T23:53:43+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "blackrock.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE0tRlhHYVRXZnkwZ0dHR1pqMkpCZGFrYl9GUFJZVGJoaHZMSk5CTGhPbGRROWxkNzB6S2FYeGhITGs2eGZvVDhLVnNaLVdWblJ1cG1GXzV6UF9lMnJFTk5FX3QwOTBQb1lUV1NlaERTaGcxVlg4U1k0ckszQ2Y?oc=5\" target=\"_blank\">贝莱德全球固收机会基金</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">blackrock.com</font>",
+      "title": "贝莱德全球固收机会基金 - blackrock.com",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tRlhHYVRXZnkwZ0dHR1pqMkpCZGFrYl9GUFJZVGJoaHZMSk5CTGhPbGRROWxkNzB6S2FYeGhITGs2eGZvVDhLVnNaLVdWblJ1cG1GXzV6UF9lMnJFTk5FX3QwOTBQb1lUV1NlaERTaGcxVlg4U1k0ckszQ2Y?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-03-30T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "TradingKey",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPWlJkOWZsQUlJNWFKT25tVHh1V05pTUFfUmFnSVVSb21PRTJkeEpacTJsSVBHYUxLd2s0R1lUWm9lT2dsZUd2SmItN2YxTzEzUzY3bXJQRFY0RngyckY2RlctMU9zMlhSZzBFZWZwd0FRRmJzV2xVeDZPX3VTNGE3RDdCWHlxVDdtOTRaZnhmYld2QXh4LVp4MHRKTjl6SUxnQ29obmVGUl9LR3NicUN5XzZjTHJmN1Bnc3NGZ1BuNHh3UVgwSXlsa3ZBZmo2S1U?oc=5\" target=\"_blank\">对冲基金大佬高喊“十倍机会”，美国“两房”股价均飙升超45%！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TradingKey</font>",
+      "title": "对冲基金大佬高喊“十倍机会”，美国“两房”股价均飙升超45%！ - TradingKey",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWlJkOWZsQUlJNWFKT25tVHh1V05pTUFfUmFnSVVSb21PRTJkeEpacTJsSVBHYUxLd2s0R1lUWm9lT2dsZUd2SmItN2YxTzEzUzY3bXJQRFY0RngyckY2RlctMU9zMlhSZzBFZWZwd0FRRmJzV2xVeDZPX3VTNGE3RDdCWHlxVDdtOTRaZnhmYld2QXh4LVp4MHRKTjl6SUxnQ29obmVGUl9LR3NicUN5XzZjTHJmN1Bnc3NGZ1BuNHh3UVgwSXlsa3ZBZmo2S1U?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2023-03-02T00:55:52+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "UBS",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSS01SDRkYjZkeUEwZU9RY2lUWHFNMzQ5cGRKOFZnVGtXQWtkVDBIUnpTQTRiamYxOGpDY2NmSEF2WWpsRDdBYTJEcjJqeU16SlFHNWFfeERTeDFKa0NhNU9BcEMza1dUZ2djWkx1U2wxWW9rcDRsaExkTFIybk1pc1RJX25GWXkwTU0tbF9mWG5pTnZYN3FGMXM4LWQzQi1DSGRVdGhNb1lBWDFYNzJmYlNvSEgySnZJWjVHdg?oc=5\" target=\"_blank\">投资有战术，对冲基金FOF更适合这类投资者</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UBS</font>",
+      "title": "投资有战术，对冲基金FOF更适合这类投资者 - UBS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSS01SDRkYjZkeUEwZU9RY2lUWHFNMzQ5cGRKOFZnVGtXQWtkVDBIUnpTQTRiamYxOGpDY2NmSEF2WWpsRDdBYTJEcjJqeU16SlFHNWFfeERTeDFKa0NhNU9BcEMza1dUZ2djWkx1U2wxWW9rcDRsaExkTFIybk1pc1RJX25GWXkwTU0tbF9mWG5pTnZYN3FGMXM4LWQzQi1DSGRVdGhNb1lBWDFYNzJmYlNvSEgySnZJWjVHdg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-05-03T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5UZVo2aWpabkJVMEVzd1VGclladjI3a2h0el90NnFiSk9fczZ0al8tQldyb29NdlFBaVVvcWNGZmhELTdyeERTZS1QZVF1M2JmV2F5SjRIcWQ4TG5ESlVwUGdhMjg0YUJJaXp2TUs2T0ZiUHBiQVhEa25n?oc=5\" target=\"_blank\">基金经理解读国产半导体板块投资机会</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "基金经理解读国产半导体板块投资机会 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5UZVo2aWpabkJVMEVzd1VGclladjI3a2h0el90NnFiSk9fczZ0al8tQldyb29NdlFBaVVvcWNGZmhELTdyeERTZS1QZVF1M2JmV2F5SjRIcWQ4TG5ESlVwUGdhMjg0YUJJaXp2TUs2T0ZiUHBiQVhEa25n?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-04-14T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzRnZvMXNkX0lEa2hRR3FkQmZjanlpUWhOZGQyTzRTU0xXbVU5ZW1XOGhkQVNQQzhhbTJMOUdDNkM2LU95SDVTZEp4YV9OQTI2VWtvYmVKU2d0RUE5?oc=5\" target=\"_blank\">关税冲击波砸出“黄金坑” 基金经理坚定看好中国资产</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "关税冲击波砸出“黄金坑” 基金经理坚定看好中国资产 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBzRnZvMXNkX0lEa2hRR3FkQmZjanlpUWhOZGQyTzRTU0xXbVU5ZW1XOGhkQVNQQzhhbTJMOUdDNkM2LU95SDVTZEp4YV9OQTI2VWtvYmVKU2d0RUE5?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-10-30T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1hKNkdWZWpQeXlWUHF4NS1xclBqdVFkZEV2aDA0MGszaGRMY0VxYmFncG8tSFQ2YlE3dHFpb1pwU05qTFc1ZXFWYkxIVEZyd25CMDA4NVB4LUdlc0I0Yi11Z3dxV09wSzUwQmhZY1RnaDdpUHJIdWszeEtpT0p4eXdoa0ZyRTZOVEVia0VDVQ?oc=5\" target=\"_blank\">公募基金三季报“出炉”！主动权益基金如何上仓位、调结构？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "公募基金三季报“出炉”！主动权益基金如何上仓位、调结构？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1hKNkdWZWpQeXlWUHF4NS1xclBqdVFkZEV2aDA0MGszaGRMY0VxYmFncG8tSFQ2YlE3dHFpb1pwU05qTFc1ZXFWYkxIVEZyd25CMDA4NVB4LUdlc0I0Yi11Z3dxV09wSzUwQmhZY1RnaDdpUHJIdWszeEtpT0p4eXdoa0ZyRTZOVEVia0VDVQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-01-18T08:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQVTRCUjB1NjRyZjRUaEFjV1RhcTYtbHo3VjVtOWhra0VfeDJrWDRQMkM1NVpNT0xGbHhENmhTWUswMW96V2F4bGpJT2o1UDJXZ3FqSVhZdzZLYVF2dUpqejEtR2xKTjJmWHhSRDBQU0lnUm9nbnhJT1VpNVBGMFNZUFhsTHRHU3BueWgwMEpn?oc=5\" target=\"_blank\">启新局，谋新篇——博时基金“春临大地，经济新局”2025年一季度投资策略会成功举办</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "启新局，谋新篇——博时基金“春临大地，经济新局”2025年一季度投资策略会成功举办 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVTRCUjB1NjRyZjRUaEFjV1RhcTYtbHo3VjVtOWhra0VfeDJrWDRQMkM1NVpNT0xGbHhENmhTWUswMW96V2F4bGpJT2o1UDJXZ3FqSVhZdzZLYVF2dUpqejEtR2xKTjJmWHhSRDBQU0lnUm9nbnhJT1VpNVBGMFNZUFhsTHRHU3BueWgwMEpn?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-10-19T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5WMmZIRThJb1lSNkJMLU10QTlhWjNNVW9fZFdHT3ctdE5QQnpTWW1hWVp4QlVsTG1ZMHhyWEExYkNfd0RxU3JFZ3dEREJfWTV2RkRSM2NZMkZxX0lZUGpJZ2JjR0tGWDFnNFIxT256N0xta0JzMjBoeTlR?oc=5\" target=\"_blank\">基金经理解读有色板块投资机会</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "基金经理解读有色板块投资机会 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WMmZIRThJb1lSNkJMLU10QTlhWjNNVW9fZFdHT3ctdE5QQnpTWW1hWVp4QlVsTG1ZMHhyWEExYkNfd0RxU3JFZ3dEREJfWTV2RkRSM2NZMkZxX0lZUGpJZ2JjR0tGWDFnNFIxT256N0xta0JzMjBoeTlR?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-12-29T08:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9jelotWHFXTlJMaGJXd203YndqTUZNc0dJcHlZZnQyQS1SNnl5LUl6bWllMHpNcnhxRXNBZ3Rrdzk2TGdCclZwNmZ3MnJVR3Q0WlhHWDNoOWVSdUFwMy1PV1BJVFk5NFFyTkJFLWVVQ04ybWd1RVozN3ZR?oc=5\" target=\"_blank\">五大私募展望2026年债市投资机会</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "五大私募展望2026年债市投资机会 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jelotWHFXTlJMaGJXd203YndqTUZNc0dJcHlZZnQyQS1SNnl5LUl6bWllMHpNcnhxRXNBZ3Rrdzk2TGdCclZwNmZ3MnJVR3Q0WlhHWDNoOWVSdUFwMy1PV1BJVFk5NFFyTkJFLWVVQ04ybWd1RVozN3ZR?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-05-20T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZZ1hQQUg5cDVDTndYaVNaYlV0Nk42NmlIY2F0dEs5ODVFTEk2dWkyV3g5N21wdE9mM2hvNU5zNkxTNGlsV09nU0NmZ1cyaUJrMnphUTRYZE0yZW1kLUk4OXJ6T0g4SHdXc1VvOEJZeWJTb0oxNmo4eFdR?oc=5\" target=\"_blank\">深耕全球投资二十载 资深基金经理助力把握港股机遇</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "深耕全球投资二十载 资深基金经理助力把握港股机遇 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZZ1hQQUg5cDVDTndYaVNaYlV0Nk42NmlIY2F0dEs5ODVFTEk2dWkyV3g5N21wdE9mM2hvNU5zNkxTNGlsV09nU0NmZ1cyaUJrMnphUTRYZE0yZW1kLUk4OXJ6T0g4SHdXc1VvOEJZeWJTb0oxNmo4eFdR?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2024-09-28T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "impact:利率"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9XZmU5Z29SdjdOT2VnREM5clZmTGN5UlBidkJTNmduQmYwc3pRbVJOR19YMFh2ZzVFQTJacl83TGxwbmhXcHlPX1VlRUNxRmV4bnpyVEJWc2R6TXV2VzBfSkZRN3hiQ1FhUDMwdjY0Ql9tVzBlNVlGN05n?oc=5\" target=\"_blank\">低利率环境下，资管机构多举措挖掘市场机遇</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "低利率环境下，资管机构多举措挖掘市场机遇 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XZmU5Z29SdjdOT2VnREM5clZmTGN5UlBidkJTNmduQmYwc3pRbVJOR19YMFh2ZzVFQTJacl83TGxwbmhXcHlPX1VlRUNxRmV4bnpyVEJWc2R6TXV2VzBfSkZRN3hiQ1FhUDMwdjY0Ql9tVzBlNVlGN05n?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-05-18T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9TWDZKVGtEdXhhczZaOUFOTV94dDJTb21RaEJ5T0x0V19yNVkwV2RHYXhyZVdmUEtZQ2RIelhPYUNPNGtObFhneWgwTkFDYVVTcUlCNklXczZBMzB4LWl1dEs2cGx2Yk9MM1pLY19IdFBhUURsODBYVjh3?oc=5\" target=\"_blank\">公募基金经理解读全球市场新变局：重视多元资产配置稳住组合基本盘</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "公募基金经理解读全球市场新变局：重视多元资产配置稳住组合基本盘 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TWDZKVGtEdXhhczZaOUFOTV94dDJTb21RaEJ5T0x0V19yNVkwV2RHYXhyZVdmUEtZQ2RIelhPYUNPNGtObFhneWgwTkFDYVVTcUlCNklXczZBMzB4LWl1dEs2cGx2Yk9MM1pLY19IdFBhUURsODBYVjh3?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2024-07-13T07:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9Mamg3X3RpQmR3TFd0YWR5RDlOdVJmdHlrbWptX25sbUN0UnNkcmdpeG5GUUFEa0tsYzNtblVlYlJGVmJGTXNjTllzdXJEU0ZxWThKOURvamR6ZDVkY2VmU3o2UHBfTWVwVEJPMjRzNUc5Qi1xaExOMmZn?oc=5\" target=\"_blank\">七位知名私募投资经理“把脉”下半年市场</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "七位知名私募投资经理“把脉”下半年市场 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Mamg3X3RpQmR3TFd0YWR5RDlOdVJmdHlrbWptX25sbUN0UnNkcmdpeG5GUUFEa0tsYzNtblVlYlJGVmJGTXNjTllzdXJEU0ZxWThKOURvamR6ZDVkY2VmU3o2UHBfTWVwVEJPMjRzNUc5Qi1xaExOMmZn?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 3,
+      "published_at": "2025-01-12T08:00:00+00:00",
+      "query": "基金 市场 风险 机会",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:增长",
+        "positive:盈利"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 2,
+      "source": "中国基金报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFBPSG5NRTkzbmVma01pOFBxOS1SOGp6ekQ0Uzl0UWFucl9aZ3c3ejVVSlFaVG5BRER3SnVpYWFfYUd1ZldWNGdNRmh1NF9QOTJfY2FMOGpSY0Z5Uk5GVmdaNTNOWjIzQm11UzZ0ZlBQWl9VMUNjUFQ4WFFB?oc=5\" target=\"_blank\">七大基金经理解读2025年港股市场投资机遇：港股估值水平处于历史低位有望延续估值修复和盈利增长中国基金报</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中国基金报</font>",
+      "title": "七大基金经理解读2025年港股市场投资机遇：港股估值水平处于历史低位有望延续估值修复和盈利增长中国基金报 - 中国基金报",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBPSG5NRTkzbmVma01pOFBxOS1SOGp6ekQ0Uzl0UWFucl9aZ3c3ejVVSlFaVG5BRER3SnVpYWFfYUd1ZldWNGdNRmh1NF9QOTJfY2FMOGpSY0Z5Uk5GVmdaNTNOWjIzQm11UzZ0ZlBQWl9VMUNjUFQ4WFFB?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-11T01:57:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "AASTOCKS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNY2FOU1VOOUd3TzFXQVhLWGVXTDZZMHY0NzVlWTMtNHRReEJUV2xMUFZxS19OeGs2RWN6NVJPc1NjVkowVV9meXg3dVN3a2ZRVnhVWlFFcjg0T1VLOFFsR1BBWk1pMXZ1eGZsNnhZanRIZ1NpUXIxQ1d0RE1nU2w3dzNoX3p1T01Zc2c?oc=5\" target=\"_blank\">《经济》澳洲6月消费者通胀预期轻微降至5.5% 创三个月低 基金行情Funds - 基金新闻内容News Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
+      "title": "《经济》澳洲6月消费者通胀预期轻微降至5.5% 创三个月低 基金行情Funds - 基金新闻内容News Content - AASTOCKS.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY2FOU1VOOUd3TzFXQVhLWGVXTDZZMHY0NzVlWTMtNHRReEJUV2xMUFZxS19OeGs2RWN6NVJPc1NjVkowVV9meXg3dVN3a2ZRVnhVWlFFcjg0T1VLOFFsR1BBWk1pMXZ1eGZsNnhZanRIZ1NpUXIxQ1d0RE1nU2w3dzNoX3p1T01Zc2c?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-03T10:09:08+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgJBVV95cUxNOV9FM09qQm5abUNlNVAtUnQtQV9RWjdxZkg4aGFFYUNNc0dlcXNwUXZFNE5IZkoxRldjVlNyRXBJX3dzcTU1YzBtZXppdFM4azIyU2xMVW52dEJtRmFFVHgzN2NzWk5BWXR0TXdHNzZXc2xVQkJyeFJWdGpXZHI0S3I4aTFzUHZjeC1ZNlhzS0xLQUZCM3FpNVp1djlxekV6cmtCMUdjS19Cd20tMGxlOHZWNjFPb1pfVGU3LVh0c3pjTGFMZVRDbVFTUWhVQ2pndFlYa2x4VElTbnNvSGVtN3l0WlJXbEpwWUNVWjJjNGFOZDIzYXdqODVNR3RGYVBDQXJIZnVxNDAzQnFmcnd6QXBEc1ZIc1hESmc?oc=5\" target=\"_blank\">印度卢比汇率暴跌，市场押注央行意外加息</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "印度卢比汇率暴跌，市场押注央行意外加息 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNOV9FM09qQm5abUNlNVAtUnQtQV9RWjdxZkg4aGFFYUNNc0dlcXNwUXZFNE5IZkoxRldjVlNyRXBJX3dzcTU1YzBtZXppdFM4azIyU2xMVW52dEJtRmFFVHgzN2NzWk5BWXR0TXdHNzZXc2xVQkJyeFJWdGpXZHI0S3I4aTFzUHZjeC1ZNlhzS0xLQUZCM3FpNVp1djlxekV6cmtCMUdjS19Cd20tMGxlOHZWNjFPb1pfVGU3LVh0c3pjTGFMZVRDbVFTUWhVQ2pndFlYa2x4VElTbnNvSGVtN3l0WlJXbEpwWUNVWjJjNGFOZDIzYXdqODVNR3RGYVBDQXJIZnVxNDAzQnFmcnd6QXBEc1ZIc1hESmc?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-01-16T08:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "财联社",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiRkFVX3lxTE5SN1V0blQ1Qm43YmFXTGM5TERjdktlSFhxOFYycGVYaDdRcTRzM2drTmd1aGx4NnI5RTBYdDVWZzd6UEVTZVE?oc=5\" target=\"_blank\">央行开年启动结构性降息，近30万亿到期定存何去何从？一线：存款偏好依旧强烈，理财、基金未现流入</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "title": "央行开年启动结构性降息，近30万亿到期定存何去何从？一线：存款偏好依旧强烈，理财、基金未现流入 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5SN1V0blQ1Qm43YmFXTGM5TERjdktlSFhxOFYycGVYaDdRcTRzM2drTmd1aGx4NnI5RTBYdDVWZzd6UEVTZVE?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-08-18T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:上涨"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "新京报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWRG1pQTlxY2JZWlM1Z2dEaDBqMlZ0ejZlcnFkM1RPdGNfMnV6OUd1VXNLOE5aSUxXSThzZURWNXVSNUlYWkZnZmpDUGsySWY3OUJzVmhVZExDQTNyY0RlUWV3?oc=5\" target=\"_blank\">银行存款不香了？7月这类存款新增大幅上涨 资金正加速入市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新京报</font>",
+      "title": "银行存款不香了？7月这类存款新增大幅上涨 资金正加速入市 - 新京报",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBWRG1pQTlxY2JZWlM1Z2dEaDBqMlZ0ejZlcnFkM1RPdGNfMnV6OUd1VXNLOE5aSUxXSThzZURWNXVSNUlYWkZnZmpDUGsySWY3OUJzVmhVZExDQTNyY0RlUWV3?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-08-29T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "大纪元",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE1udzdGUUxSWVpqQzJUN0VaNExsZUpYUU5PMGdGYVl5R1R0ZHdoSmpBdmZ0RDNoVEEwajlKS0MxWFU3dVVxaWZfbU5LRm0zdGkzMWVteEI4S3NiUnlKQk50NNIBZkFVX3lxTFAyd0NLM0NUUl9wS2hQd25vM1BYdEZVUS03RXZpa1lXM3gxTklGY3FKX3l6V0VkbWd6RXNfbEkxS1F2Y1pqTWJqaWRndFo0NWh0SDR6MmdOdUVLUmpVd0lpekctM0pPUQ?oc=5\" target=\"_blank\">夏林：美聯儲主席轉向 對加拿大人有什麼影響？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">大纪元</font>",
+      "title": "夏林：美聯儲主席轉向 對加拿大人有什麼影響？ - 大纪元",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1udzdGUUxSWVpqQzJUN0VaNExsZUpYUU5PMGdGYVl5R1R0ZHdoSmpBdmZ0RDNoVEEwajlKS0MxWFU3dVVxaWZfbU5LRm0zdGkzMWVteEI4S3NiUnlKQk50NNIBZkFVX3lxTFAyd0NLM0NUUl9wS2hQd25vM1BYdEZVUS03RXZpa1lXM3gxTklGY3FKX3l6V0VkbWd6RXNfbEkxS1F2Y1pqTWJqaWRndFo0NWh0SDR6MmdOdUVLUmpVd0lpekctM0pPUQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-10T02:57:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "AASTOCKS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOXzhzOFMtVW81OUNYTzRkYmlMZmY2X3BIeVAyelRwcUR4bDJfMlNIWk93Y3ZRRVRMbERBbUt4NDJ2NXRYdEZGTlBFOHF2LU9sTWVGSWhRSS0tMzdEVkdpSzdvS2RTckd0Nmx3c0VEam9uTE4zWVB3TV94S291Zk1QOVZ2bUdmUktLWmhN?oc=5\" target=\"_blank\">南韩十四年来首次启动银行审查试图打击韩圜投机活动 基金行情Funds - 基金新闻内容News Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
+      "title": "南韩十四年来首次启动银行审查试图打击韩圜投机活动 基金行情Funds - 基金新闻内容News Content - AASTOCKS.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOXzhzOFMtVW81OUNYTzRkYmlMZmY2X3BIeVAyelRwcUR4bDJfMlNIWk93Y3ZRRVRMbERBbUt4NDJ2NXRYdEZGTlBFOHF2LU9sTWVGSWhRSS0tMzdEVkdpSzdvS2RTckd0Nmx3c0VEam9uTE4zWVB3TV94S291Zk1QOVZ2bUdmUktLWmhN?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2024-09-25T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "impact:利率"
+      ],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "美国之音",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUdQVDhmampBX1lWMTlWYmxIZ19nd1YxR2Z5d0xnRVVmUTlzODBTWmh0QUxCZTB3V3hmcXUxZG9GYUZVcGZrRHcxY1Y5LWVIVEthcHpqVVRfQTJ2ekZ2bTk1XzRyMkpXSG9YeTNSeHE2ZFpRYlhPRW9ZazNRb28yUGdMMTY1SVJsOW1XeFN2QTVyS1ZKdkwxRDZuMnLSAZ8BQVVfeXFMTUoxZHM1SWU3TlhlYmFSTDJkdGp0VHIwV3dCT0RNSmFKTy1vb2N3MEdZc0J0UFBWWGdKakgtbGZFbmpHek4tNmwybFp2X3pkc283UU9IZHhkRjBwb0p2OXhxRWxzTFFicDNNajNSTGs3c1Vaa1JrSkt4ZC1pTVMwVy1fUUdCNGhCVVBWcU5kVXkxLTlzWmhNb3hHZld0NG1R?oc=5\" target=\"_blank\">中国央行下调中期贷款利率，多数亚股续涨</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">美国之音</font>",
+      "title": "中国央行下调中期贷款利率，多数亚股续涨 - 美国之音",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUdQVDhmampBX1lWMTlWYmxIZ19nd1YxR2Z5d0xnRVVmUTlzODBTWmh0QUxCZTB3V3hmcXUxZG9GYUZVcGZrRHcxY1Y5LWVIVEthcHpqVVRfQTJ2ekZ2bTk1XzRyMkpXSG9YeTNSeHE2ZFpRYlhPRW9ZazNRb28yUGdMMTY1SVJsOW1XeFN2QTVyS1ZKdkwxRDZuMnLSAZ8BQVVfeXFMTUoxZHM1SWU3TlhlYmFSTDJkdGp0VHIwV3dCT0RNSmFKTy1vb2N3MEdZc0J0UFBWWGdKakgtbGZFbmpHek4tNmwybFp2X3pkc283UU9IZHhkRjBwb0p2OXhxRWxzTFFicDNNajNSTGs3c1Vaa1JrSkt4ZC1pTVMwVy1fUUdCNGhCVVBWcU5kVXkxLTlzWmhNb3hHZld0NG1R?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 3,
+      "published_at": "2025-05-07T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:政策支持",
+        "impact:政策"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "csrc.gov.cn",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1iSHhCUU9IVFR3S0F3SVlPQzBtS0V6M1Z4NmJOeHlkYklRakF2LU85UnZLYkhDVWdSbkxLdS1KcXoxbldQY1gxZ0NFekdkd21oLWszNFlkelJ4OFdLcnhuMnFCLTM3eGtaelE?oc=5\" target=\"_blank\">国新办举行新闻发布会 介绍“一揽子金融政策支持稳市场稳预期”有关情况</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">csrc.gov.cn</font>",
+      "title": "国新办举行新闻发布会 介绍“一揽子金融政策支持稳市场稳预期”有关情况 - csrc.gov.cn",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iSHhCUU9IVFR3S0F3SVlPQzBtS0V6M1Z4NmJOeHlkYklRakF2LU85UnZLYkhDVWdSbkxLdS1KcXoxbldQY1gxZ0NFekdkd21oLWszNFlkelJ4OFdLcnhuMnFCLTM3eGtaelE?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-09-18T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE4taVdJckNwbnZBbUlCanFiNUhZM3BCM1hrWEcxVkVqQTlrZlIyTXRNZ3VGZ3ptdU1haWFITThKZl82R2pNWE9mdVZ4UWhJNnh2QWQwU1hxSQ?oc=5\" target=\"_blank\">美联储宣布：降息25个基点，将如何影响中国资产？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "美联储宣布：降息25个基点，将如何影响中国资产？ - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4taVdJckNwbnZBbUlCanFiNUhZM3BCM1hrWEcxVkVqQTlrZlIyTXRNZ3VGZ3ptdU1haWFITThKZl82R2pNWE9mdVZ4UWhJNnh2QWQwU1hxSQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2024-10-15T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPVzJlNE5seHdiMTNmc0RXVEhrdGNxU2xHZnlKaTc4X1k5SGJoQ3JwT3JsVnRjamU0bEpZaFVtU0wxbFlRdHduRGhibE0zdUNmaGdsTkVzN001YVV6X2tFbFhtRHppTHhwNVNmVG45WFZOZW1ZdXhCQUtyR19GVXdFYVJySHBGdw?oc=5\" target=\"_blank\">从海外实践看 央行流动性便利对股市影响几何？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "从海外实践看 央行流动性便利对股市影响几何？ - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVzJlNE5seHdiMTNmc0RXVEhrdGNxU2xHZnlKaTc4X1k5SGJoQ3JwT3JsVnRjamU0bEpZaFVtU0wxbFlRdHduRGhibE0zdUNmaGdsTkVzN001YVV6X2tFbFhtRHppTHhwNVNmVG45WFZOZW1ZdXhCQUtyR19GVXdFYVJySHBGdw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 4,
+      "published_at": "2024-09-29T12:00:13+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:增持",
+        "positive:回购",
+        "impact:回购"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 2,
+      "source": "财联社",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CNXhzVjVqenVkSGhEYm9DdXlRRjBTMDJQalpmSTBFSUFqZWRwOVBNbndYaE5MX3RlMWpRNzhDMXphRTgwLXRGYg?oc=5\" target=\"_blank\">央行：推动证券、基金、保险公司互换便利和股票回购增持再贷款等新设立工具落地生效维护资本市场稳定</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "title": "央行：推动证券、基金、保险公司互换便利和股票回购增持再贷款等新设立工具落地生效维护资本市场稳定 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5CNXhzVjVqenVkSGhEYm9DdXlRRjBTMDJQalpmSTBFSUFqZWRwOVBNbndYaE5MX3RlMWpRNzhDMXphRTgwLXRGYg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 4,
+      "published_at": "2024-09-24T04:42:42+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:增持",
+        "positive:回购",
+        "impact:回购"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 2,
+      "source": "财联社",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwbkRsVE9GQ0dnRm1GSWx4bHRkemhTOTRScXBfTEttenlhcXN4VkpMS3ZtcWltSU1feUlYeWhhdG9JMEE1WFJyVg?oc=5\" target=\"_blank\">资本市场活水来了！央行创设证券、基金、保险公司互换便利和股票回购增持专项再贷款只能用于投资股票市场</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">财联社</font>",
+      "title": "资本市场活水来了！央行创设证券、基金、保险公司互换便利和股票回购增持专项再贷款只能用于投资股票市场 - 财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAwbkRsVE9GQ0dnRm1GSWx4bHRkemhTOTRScXBfTEttenlhcXN4VkpMS3ZtcWltSU1feUlYeWhhdG9JMEE1WFJyVg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-04T07:17:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "AASTOCKS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcXpnQWk3OXNCVTNiNnBuYTM0OHNtSjFVQVRVdkE5d3psSGZaeGtaSzBnZHZJLVVhYWhVblZGZ0N3WlRwakVfRWh2dko5SXhtTnhnTUd6aUxjX0VZeVlZR1F2WFJWejcyRTNpMEJaaUJtQ0wtT21XaFBMcnQ0UzFIUHlXVGxJUWEwQVpZ?oc=5\" target=\"_blank\">传日本央行考虑本月加息四分一厘今年较後时间或进一步加息 基金行情Funds - 基金新闻内容News Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
+      "title": "传日本央行考虑本月加息四分一厘今年较後时间或进一步加息 基金行情Funds - 基金新闻内容News Content - AASTOCKS.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcXpnQWk3OXNCVTNiNnBuYTM0OHNtSjFVQVRVdkE5d3psSGZaeGtaSzBnZHZJLVVhYWhVblZGZ0N3WlRwakVfRWh2dko5SXhtTnhnTUd6aUxjX0VZeVlZR1F2WFJWejcyRTNpMEJaaUJtQ0wtT21XaFBMcnQ0UzFIUHlXVGxJUWEwQVpZ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-01T02:23:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "AASTOCKS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWdVcTl4aUN0TXgxZFNObFFrMzZXaWF5S29adk1telZwNUZTWTBBeTFkSzYwZHFlV1RxVEYzOVFES2ctclJMWE1XZDg1Wk9CVUI0aFo0SDhuYmJsUkNxaWN5X1I1RHl0MnJCWHNONDRKczQyM1VhX1VTYWxBMDlkWE4yNWVOWGYwMFE?oc=5\" target=\"_blank\">《经济》南韩5月出口按年增53.2%至877.5亿美元创单月新高 支持央行鹰派立场</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
+      "title": "《经济》南韩5月出口按年增53.2%至877.5亿美元创单月新高 支持央行鹰派立场 - AASTOCKS.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWdVcTl4aUN0TXgxZFNObFFrMzZXaWF5S29adk1telZwNUZTWTBBeTFkSzYwZHFlV1RxVEYzOVFES2ctclJMWE1XZDg1Wk9CVUI0aFo0SDhuYmJsUkNxaWN5X1I1RHl0MnJCWHNONDRKczQyM1VhX1VTYWxBMDlkWE4yNWVOWGYwMFE?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-09-17T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0NzljOG1KbTRKUWdXWkZUNHBwcjlNV1ZROWVoTGQ2SG5iRlB4eEcxVElvcUhCMnZHWElSSTlWREdEN1hjMjZaVmFRejVXYXVsT3A1OWtwUFprOGlP?oc=5\" target=\"_blank\">连平：美联储重启降息对全球股市影响几何</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "连平：美联储重启降息对全球股市影响几何 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA0NzljOG1KbTRKUWdXWkZUNHBwcjlNV1ZROWVoTGQ2SG5iRlB4eEcxVElvcUhCMnZHWElSSTlWREdEN1hjMjZaVmFRejVXYXVsT3A1OWtwUFprOGlP?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-05-16T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:创新高"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "证券之星",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sTkh3cjVRWmN4NWxXSGIzT2tGU3g0cHE4WUI0R0dNZWs3aVpRVW1FRmMtQnpkb3Z5Z2lpZFZZMXR3T3VGTFh0OHY5NDhaN3hLUzBPZllPbC1DdDF1Y2Z2TS1wRnk?oc=5\" target=\"_blank\">印度股市续创阶段新高，新兴亚洲ETF盘中直线拉升，融资净买额创新高_ETF基金_基金</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券之星</font>",
+      "title": "印度股市续创阶段新高，新兴亚洲ETF盘中直线拉升，融资净买额创新高_ETF基金_基金 - 证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1sTkh3cjVRWmN4NWxXSGIzT2tGU3g0cHE4WUI0R0dNZWs3aVpRVW1FRmMtQnpkb3Z5Z2lpZFZZMXR3T3VGTFh0OHY5NDhaN3hLUzBPZllPbC1DdDF1Y2Z2TS1wRnk?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-10-20T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBsMXIzaElXcElveXhCQVc3QkdHR0VJbVl0SFFpVHRBM0FBWDFlSnJxcXExM0loNTN5VnJOaWVwbDFzQmdSRVB4UXA4clR4aml1UXZ1WWFoNk1LQ245X2FRSW5KNjQxRjVEdnBacENkeHNHSjJrdDltNg?oc=5\" target=\"_blank\">债市扰动因素逐步弱化，看好四季度债券市场表现</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "债市扰动因素逐步弱化，看好四季度债券市场表现 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBsMXIzaElXcElveXhCQVc3QkdHR0VJbVl0SFFpVHRBM0FBWDFlSnJxcXExM0loNTN5VnJOaWVwbDFzQmdSRVB4UXA4clR4aml1UXZ1WWFoNk1LQ245X2FRSW5KNjQxRjVEdnBacENkeHNHSjJrdDltNg?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-04-28T07:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "AASTOCKS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWY5Q0IydFI2SHJsZUE0alRaa2dkZmk2THIyTW9hLWVielM1VGFvaTc3bUhINE9qcmRkNk0tWm52UmZLWWR1T1YybFRiZFA5RThJaTlOUjZ4TDROQWh0eEQzVDZLd0tsb0hlNlRXUHR2UFZTNmNxUzZfcm1MMS00M19rem4?oc=5\" target=\"_blank\">《亚股》日经指数收跌619点或1% 软银回吐一成加息憧憬推升银行股 基金行情Funds - 基金新闻内容News Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
+      "title": "《亚股》日经指数收跌619点或1% 软银回吐一成加息憧憬推升银行股 基金行情Funds - 基金新闻内容News Content - AASTOCKS.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZWY5Q0IydFI2SHJsZUE0alRaa2dkZmk2THIyTW9hLWVielM1VGFvaTc3bUhINE9qcmRkNk0tWm52UmZLWWR1T1YybFRiZFA5RThJaTlOUjZ4TDROQWh0eEQzVDZLd0tsb0hlNlRXUHR2UFZTNmNxUzZfcm1MMS00M19rem4?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-09T02:59:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "AASTOCKS.com",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQMmEtZTExV1R0VUk4MkprYmNrS2hOVC1GeEQwSThndmNhbkRiNmZfVm4xWFdXb3Q3bXhCa2lCUHhfMHlOV0l4dkVZRUQ1Y3JNSi1mRGMzSmwwMjF5RzBsWC1uaFdMRlV3TjZrUEpnZnk5OXZWeTluSUdmQWVBNVJXWXB6dlZ5SG9KWEdRVkt3?oc=5\" target=\"_blank\">《经济》中国5月美元计出口按年升19.4% 预测升15% 基金行情Funds - 基金新闻内容News Content</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AASTOCKS.com</font>",
+      "title": "《经济》中国5月美元计出口按年升19.4% 预测升15% 基金行情Funds - 基金新闻内容News Content - AASTOCKS.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMmEtZTExV1R0VUk4MkprYmNrS2hOVC1GeEQwSThndmNhbkRiNmZfVm4xWFdXb3Q3bXhCa2lCUHhfMHlOV0l4dkVZRUQ1Y3JNSi1mRGMzSmwwMjF5RzBsWC1uaFdMRlV3TjZrUEpnZnk5OXZWeTluSUdmQWVBNVJXWXB6dlZ5SG9KWEdRVkt3?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2024-01-29T08:00:00+00:00",
+      "query": "央行 利率 股市 基金",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jY2VZVGVyc3p5cXpkLXdGd3paNDQwVjdNeVViWldIcy0zanphcDgyOGE0OXpPdURKVkRVMnNMLW5EQXZ6a1VXMGVOMjlQQnl4R0xwMjRBYzduWm8y?oc=5\" target=\"_blank\">中国资产大涨，外资买入！近900亿元抄底</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "中国资产大涨，外资买入！近900亿元抄底 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jY2VZVGVyc3p5cXpkLXdGd3paNDQwVjdNeVViWldIcy0zanphcDgyOGE0OXpPdURKVkRVMnNMLW5EQXZ6a1VXMGVOMjlQQnl4R0xwMjRBYzduWm8y?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-12-24T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:盈利"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNN00wVHRSM0ZyYjFyV1cta2NleDk5bGNsVFRwN0FkZEdWRXFDcE80alUxaGVGNTAybnBlX2w4WnlPN1poSzhUdUdnUzYxX2tHR093bUlZS0E3NzVOZFZwUjJvQ3NRaHF0dEZmR09tSUlkejlDX19iblhjOTVEVnRmMXhCSXJPZ29UWk1XbTNjaw?oc=5\" target=\"_blank\">高盛看多中国股市：盈利驱动接棒，至2027年潜在涨幅38%</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "高盛看多中国股市：盈利驱动接棒，至2027年潜在涨幅38% - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN00wVHRSM0ZyYjFyV1cta2NleDk5bGNsVFRwN0FkZEdWRXFDcE80alUxaGVGNTAybnBlX2w4WnlPN1poSzhUdUdnUzYxX2tHR093bUlZS0E3NzVOZFZwUjJvQ3NRaHF0dEZmR09tSUlkejlDX19iblhjOTVEVnRmMXhCSXJPZ29UWk1XbTNjaw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-04-05T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "潮新闻",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LS3NtZHZXZVAybEJ0RUZmWVJzaE1aYWN3MWYwS0I3ejg0aV96M21fZndLVUh5S052bmE4UkdBeVVaVkJyOFFTb2dwb194NWZqMHhwTHFnZw?oc=5\" target=\"_blank\">投资实验室 ｜当AI化身“股神”：记者让大模型挑了50只股票，看看谁是潜力股？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">潮新闻</font>",
+      "title": "投资实验室 ｜当AI化身“股神”：记者让大模型挑了50只股票，看看谁是潜力股？ - 潮新闻",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LS3NtZHZXZVAybEJ0RUZmWVJzaE1aYWN3MWYwS0I3ejg0aV96M21fZndLVUh5S052bmE4UkdBeVVaVkJyOFFTb2dwb194NWZqMHhwTHFnZw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-11-04T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "投资界",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE45enp5UUk3d2RwQVdlRUlmb1VTMXlISzh5MUd1Z1FUa1l2R29ZaWJxY0hVcjlIRzI4ZHZSRmFRblNndzd1cTJqZ2FSQXd0LWlkX3d4cDZFWno?oc=5\" target=\"_blank\">九方金融研究所：从“十五五”规划看A股的长牛行情_行业动态</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">投资界</font>",
+      "title": "九方金融研究所：从“十五五”规划看A股的长牛行情_行业动态 - 投资界",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE45enp5UUk3d2RwQVdlRUlmb1VTMXlISzh5MUd1Z1FUa1l2R29ZaWJxY0hVcjlIRzI4ZHZSRmFRblNndzd1cTJqZ2FSQXd0LWlkX3d4cDZFWno?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-10-27T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE56OWpBbEVqWmRoUHY4eDExVFdsSXVfN0lmTEpYdW14VU5vUl9VYVotemk5LUE2clpYcTlKaWc4V3lrX0lFdG15TEhZSWpQXzVFNVhrRzVPMA?oc=5\" target=\"_blank\">沪指逼近4000点！这些板块值得关注</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "沪指逼近4000点！这些板块值得关注 - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE56OWpBbEVqWmRoUHY4eDExVFdsSXVfN0lmTEpYdW14VU5vUl9VYVotemk5LUE2clpYcTlKaWc4V3lrX0lFdG15TEhZSWpQXzVFNVhrRzVPMA?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-12-31T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "京报网",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5pU1ZDOFFIRUN1R2M0TUl2T0ZZNXh5cFdrQXBTUi1DVGVmSzJva3BTd0NXQ1hqRENRVzRmNDJQcV9kWkttd2xNVGg3WmhGTUo0d0hlS2ExMDdoaE51ZjgzZ3ZwbkVPZVViY2ZEdUlaUjU3Zw?oc=5\" target=\"_blank\">十大牛股出炉！A股2025年，多个新纪录</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">京报网</font>",
+      "title": "十大牛股出炉！A股2025年，多个新纪录 - 京报网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pU1ZDOFFIRUN1R2M0TUl2T0ZZNXh5cFdrQXBTUi1DVGVmSzJva3BTd0NXQ1hqRENRVzRmNDJQcV9kWkttd2xNVGg3WmhGTUo0d0hlS2ExMDdoaE51ZjgzZ3ZwbkVPZVViY2ZEdUlaUjU3Zw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-07-29T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "上海证券报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RU0VQVHdtUFJiNC15VFFMMjdKWVhiTURiVWUtSUY4Y3R5STVJRlY4QUlvb0RtYXFoRnU4MjMtYjJ3eVY3WUtuNG5aYmM5T2dfdUhr?oc=5\" target=\"_blank\">多部门透露下半年工作重点：扩内需促消费 反内卷优供给 稳住楼市股市</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">上海证券报</font>",
+      "title": "多部门透露下半年工作重点：扩内需促消费 反内卷优供给 稳住楼市股市 - 上海证券报",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RU0VQVHdtUFJiNC15VFFMMjdKWVhiTURiVWUtSUY4Y3R5STVJRlY4QUlvb0RtYXFoRnU4MjMtYjJ3eVY3WUtuNG5aYmM5T2dfdUhr?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-04-05T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "潮新闻",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9vNTVyNEQxOU1lYnhjc281VmNUcFhKbWtDMU5ncnZJODZDc0F1OXRHcVF6LTVHR0VUMDNMaC1WMnJUejNPTWhVYks4ZlV2NG9FX1EtUlRDSmNYLWlCWWhPRm55RmZMS2Y1YnphbVR3cHk1ZXc?oc=5\" target=\"_blank\">投资实验室 ｜当AI化身“股神”：记者让大模型挑了50只股票，看看谁是潜力股？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">潮新闻</font>",
+      "title": "投资实验室 ｜当AI化身“股神”：记者让大模型挑了50只股票，看看谁是潜力股？ - 潮新闻",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9vNTVyNEQxOU1lYnhjc281VmNUcFhKbWtDMU5ncnZJODZDc0F1OXRHcVF6LTVHR0VUMDNMaC1WMnJUejNPTWhVYks4ZlV2NG9FX1EtUlRDSmNYLWlCWWhPRm55RmZMS2Y1YnphbVR3cHk1ZXc?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-02-26T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "东方财富",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkZXODJxWVB3SXRlSEktY1I4d0wwM3hmYkJpaVNlX3JMa2ZYc3NJczh5WUV5aGRCS2NGQlBhaGFnQTJTemlxN0owZV80emstU2VQeUJIUUNNcjFwekFVTUFZV0xxdUJ6SGRHMThndW9hQzhZNzBYUHMxM2l4Q0NCRnkxSVBEMjJud3UyTWxGVmVraTdYSDdjQkN6Z0Noa2NVUnJNaDN4OTBRZzNxUC1qTlNYTQ?oc=5\" target=\"_blank\">三天后股市见分晓 20260226</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">东方财富</font>",
+      "title": "三天后股市见分晓 20260226 - 东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMkZXODJxWVB3SXRlSEktY1I4d0wwM3hmYkJpaVNlX3JMa2ZYc3NJczh5WUV5aGRCS2NGQlBhaGFnQTJTemlxN0owZV80emstU2VQeUJIUUNNcjFwekFVTUFZV0xxdUJ6SGRHMThndW9hQzhZNzBYUHMxM2l4Q0NCRnkxSVBEMjJud3UyTWxGVmVraTdYSDdjQkN6Z0Noa2NVUnJNaDN4OTBRZzNxUC1qTlNYTQ?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-09-03T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0pMb29mb2tWTWI2c1NNVWVZMndkem9OTEpHbGt0MllNdC1faFJVQVJoSUdJOFVfb0I0NXZFRlpFeHF5dzlBR1JObmxXaS01LXBnbnNxcTBneWxxenVHdDQ0R1cyaTBULVlwdnFYcTlHSEhhNmxMWEJKSlRnTTJPWE5uZmtzSm9lYTl4RDB2TDliSm44dnc?oc=5\" target=\"_blank\">A股指数分歧加剧！机构一致看好固态电池，产业迎来爆发期</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "A股指数分歧加剧！机构一致看好固态电池，产业迎来爆发期 - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPU0pMb29mb2tWTWI2c1NNVWVZMndkem9OTEpHbGt0MllNdC1faFJVQVJoSUdJOFVfb0I0NXZFRlpFeHF5dzlBR1JObmxXaS01LXBnbnNxcTBneWxxenVHdDQ0R1cyaTBULVlwdnFYcTlHSEhhNmxMWEJKSlRnTTJPWE5uZmtzSm9lYTl4RDB2TDliSm44dnc?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-01-05T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPcVVnVUhIcVVlUUljWENXa28xWFhMeEZoT1ZNSU12Ul91NHBLWUNQMG9SenNqSkZQdEJZSU5weWR0MXFLTnBfSUpSSjA2dWdIRkNxLU9ocnlsejYzMG5rdXpVcjZjUHZLdVhTWE9WQWVseUdZM1dOdjZzR1lRZ3J2MXB0VHh3d2JSeWdEMWtvdw?oc=5\" target=\"_blank\">2026年美国金融市场展望：多重挑战下的“盘整年”</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "2026年美国金融市场展望：多重挑战下的“盘整年” - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcVVnVUhIcVVlUUljWENXa28xWFhMeEZoT1ZNSU12Ul91NHBLWUNQMG9SenNqSkZQdEJZSU5weWR0MXFLTnBfSUpSSjA2dWdIRkNxLU9ocnlsejYzMG5rdXpVcjZjUHZLdVhTWE9WQWVseUdZM1dOdjZzR1lRZ3J2MXB0VHh3d2JSeWdEMWtvdw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-11-19T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:利好"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "中华网",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE4xcnhOZ0VSSTc1eGk1bkNuTjNNMDNYdTVScmtjUWliZjlkS3BtdHlMdGU3ZnNUdGFiZHJIQXJ5VnlEY0IyRy1JT09tY09kU05SNDJWNk1oenY4bFZ4TW5FSjh1aXpSbEdWQ0RDYnhR?oc=5\" target=\"_blank\">全球金融科技巨头米拉博战略接洽KOSPI，韩国股市迎重磅利好，市场前景璀璨</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">中华网</font>",
+      "title": "全球金融科技巨头米拉博战略接洽KOSPI，韩国股市迎重磅利好，市场前景璀璨 - 中华网",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xcnhOZ0VSSTc1eGk1bkNuTjNNMDNYdTVScmtjUWliZjlkS3BtdHlMdGU3ZnNUdGFiZHJIQXJ5VnlEY0IyRy1JT09tY09kU05SNDJWNk1oenY4bFZ4TW5FSjh1aXpSbEdWQ0RDYnhR?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-10-29T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:创新高"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "EBC Financial Group",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcXh3MS1lZkY0bE9EUVU2NTJFQTFOOWpXRVlSVUcxVVFlOGVadHBmX1Mzd05CUHFlRk03YmRFYnFhbGVNXzlkMXotOW5mTVpwVFlZVDkwTDE?oc=5\" target=\"_blank\">美股股市屡创新高：现在还能买入吗?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EBC Financial Group</font>",
+      "title": "美股股市屡创新高：现在还能买入吗? - EBC Financial Group",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tcXh3MS1lZkY0bE9EUVU2NTJFQTFOOWpXRVlSVUcxVVFlOGVadHBmX1Mzd05CUHFlRk03YmRFYnFhbGVNXzlkMXotOW5mTVpwVFlZVDkwTDE?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 2,
+      "published_at": "2025-11-06T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [
+        "positive:上调"
+      ],
+      "sentiment": "positive",
+      "sentiment_score": 1,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oZzZ4YmlLTkctcHBkVzJ3Mm1ESmZweE1QeGZFRjhBeTN2T3ktOXVhOS1uM004aXB1ek8tdEhSV2Y4N2RWU01PTFJ5ekJaVkN3NGVxUFIzWU9xaERU?oc=5\" target=\"_blank\">加仓！外资，盯上这些股票！高盛：上调！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "加仓！外资，盯上这些股票！高盛：上调！ - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oZzZ4YmlLTkctcHBkVzJ3Mm1ESmZweE1QeGZFRjhBeTN2T3ktOXVhOS1uM004aXB1ek8tdEhSV2Y4N2RWU01PTFJ5ekJaVkN3NGVxUFIzWU9xaERU?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2024-10-16T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "湖北日报传媒集团",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE55OWZ2LUdGa3NjSUUtcjN6bVJiRUhBV2N0T0lIVlJScFppOWxYS2VQM3V3SmI1WHJQTzZBMXFoR1NPdFpMaW5LNWJ2amxRNHhVaWJseXZvN0c?oc=5\" target=\"_blank\">投资还是投机？ A股起伏激起千重浪- 湖北日报新闻客户端</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">湖北日报传媒集团</font>",
+      "title": "投资还是投机？ A股起伏激起千重浪- 湖北日报新闻客户端 - 湖北日报传媒集团",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55OWZ2LUdGa3NjSUUtcjN6bVJiRUhBV2N0T0lIVlJScFppOWxYS2VQM3V3SmI1WHJQTzZBMXFoR1NPdFpMaW5LNWJ2amxRNHhVaWJseXZvN0c?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-07-24T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "新浪财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVZiYVB3YWNTQk84dWJNTkpJaV9tMlZMbG9XSHVsMHlKSUQyX2FVbTg5aFFmdjBjY09aR19EcW5TTXhValFsU0V2VnFyMldHUGVtSk4zOWpkRm1KUEg2bkFlRGNYQTU5YmFlbFgtbVRWVmJ5SWEzVjdNSTl4ZW9aR3ZlUmNsZ1ZNVGc?oc=5\" target=\"_blank\">大摩最新研判：2025 年二季度中国股市成绩单出炉，这些板块最亮眼！</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新浪财经</font>",
+      "title": "大摩最新研判：2025 年二季度中国股市成绩单出炉，这些板块最亮眼！ - 新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSVZiYVB3YWNTQk84dWJNTkpJaV9tMlZMbG9XSHVsMHlKSUQyX2FVbTg5aFFmdjBjY09aR19EcW5TTXhValFsU0V2VnFyMldHUGVtSk4zOWpkRm1KUEg2bkFlRGNYQTU5YmFlbFgtbVRWVmJ5SWEzVjdNSTl4ZW9aR3ZlUmNsZ1ZNVGc?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-11-10T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "EBC Financial Group",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Nd1VxLTRldnROZlpWVjJ6Zm9xbXVnNTNLUXZoWTU4T1lSaFRlS0Nwa0xMamk5TWtnRXRkanNxZG8wNmVJMl9aVXM1bWhnd19sb0oydVMzZkk?oc=5\" target=\"_blank\">怎么看股市大盘走势?有哪些方法?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EBC Financial Group</font>",
+      "title": "怎么看股市大盘走势?有哪些方法? - EBC Financial Group",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Nd1VxLTRldnROZlpWVjJ6Zm9xbXVnNTNLUXZoWTU4T1lSaFRlS0Nwa0xMamk5TWtnRXRkanNxZG8wNmVJMl9aVXM1bWhnd19sb0oydVMzZkk?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2025-06-09T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "证券时报",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrNGRGbUxPTFFsd0ZObmpTb3JWMTNHMzdhdW1vcDE1YmJabWtjc3lUcG5YS190SmNSSlU2R2VlR3ZHMWYyM0V3UlBwLXpvUVc4b2tzQlg0ejI5VjZj?oc=5\" target=\"_blank\">6月“金股”围观！哪些股票热度最高？</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">证券时报</font>",
+      "title": "6月“金股”围观！哪些股票热度最高？ - 证券时报",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBrNGRGbUxPTFFsd0ZObmpTb3JWMTNHMzdhdW1vcDE1YmJabWtjc3lUcG5YS190SmNSSlU2R2VlR3ZHMWYyM0V3UlBwLXpvUVc4b2tzQlg0ejI5VjZj?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-01-30T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNMmRZOHB4MXlUc3J0eFNfV2FGTHNfVDRHVDZzZnpNcGo1SlRvVkxONE9ob01BWUQtb0YzU250cEVMUHBqMDVLd2xBSmZjakdKUmQyWWhvME5SMXluemZSLXJkcEQyN3loam1CUTNTXzF2clRkZUZubExYYXBGSTg1VWdHbDFKMXVRellMOTBzZjRydEpw?oc=5\" target=\"_blank\">聚焦三大主线 外资机构看好A股配置价值</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "聚焦三大主线 外资机构看好A股配置价值 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMmRZOHB4MXlUc3J0eFNfV2FGTHNfVDRHVDZzZnpNcGo1SlRvVkxONE9ob01BWUQtb0YzU250cEVMUHBqMDVLd2xBSmZjakdKUmQyWWhvME5SMXluemZSLXJkcEQyN3loam1CUTNTXzF2clRkZUZubExYYXBGSTg1VWdHbDFKMXVRellMOTBzZjRydEpw?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2026-06-02T07:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPaXZ1Z00tRUx4WDNfNkNMTi03d1h0dXhscmlNdmNXbVl4cV85bkJTM0c1QnN5eFRiZHNDNE1rVGdYay0xWWp1WWs5RUVCdHFJWENrMDRiOVdvUVd5VEpJYlpFeTRjOHp2YlhlZHJSVlRjbGRPNkVsaTg0OGg5djV2QzlWcmd2c3BMcXJCeE5Tb1lvSnBN?oc=5\" target=\"_blank\">韩国综指“狂飙”背后：835只股票只有不到400只涨</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "韩国综指“狂飙”背后：835只股票只有不到400只涨 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaXZ1Z00tRUx4WDNfNkNMTi03d1h0dXhscmlNdmNXbVl4cV85bkJTM0c1QnN5eFRiZHNDNE1rVGdYay0xWWp1WWs5RUVCdHFJWENrMDRiOVdvUVd5VEpJYlpFeTRjOHp2YlhlZHJSVlRjbGRPNkVsaTg0OGg5djV2QzlWcmd2c3BMcXJCeE5Tb1lvSnBN?oc=5"
+    },
+    {
+      "holding_name": "",
+      "holding_symbol": "",
+      "impact_score": 1,
+      "published_at": "2024-12-10T08:00:00+00:00",
+      "query": "新能源 消费 科技 金融 股市",
+      "raw_metadata": {
+        "collector": "google_news_rss"
+      },
+      "reasons": [],
+      "sentiment": "neutral",
+      "sentiment_score": 0,
+      "source": "21财经",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQelozUjZ0amFtdy1HLUh3MU1DVnctdDNfbXRFS2ZxUl8tYVQ3SW9EeVFUbUpWa1Rvdks4REhFLXZBSVhVMVpSc0o5M3VwRUpmQl9UU2c1aWhGRzdoLTlnLVZhSXFLVkZyRWJlSkFuUEJBazlhMGM0NG5MV3ZrWEpJaHNOWmJoNlhZTWQtR3hpQQ?oc=5\" target=\"_blank\">适度宽松，稳住楼市股市——政治局会议传递八大信号</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">21财经</font>",
+      "title": "适度宽松，稳住楼市股市——政治局会议传递八大信号 - 21财经",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQelozUjZ0amFtdy1HLUh3MU1DVnctdDNfbXRFS2ZxUl8tYVQ3SW9EeVFUbUpWa1Rvdks4REhFLXZBSVhVMVpSc0o5M3VwRUpmQl9UU2c1aWhGRzdoLTlnLVZhSXFLVkZyRWJlSkFuUEJBazlhMGM0NG5MV3ZrWEpJaHNOWmJoNlhZTWQtR3hpQQ?oc=5"
+    }
+  ],
+  "source_status": {
+    "google_news_rss": {
+      "count": 80,
+      "status": "ok"
+    }
+  },
+  "summary": {
+    "high_risk_holding_count": 0,
+    "holding_count": 2,
+    "market_negative_news_count": 1,
+    "market_neutral_news_count": 67,
+    "market_positive_news_count": 12,
+    "market_tone": "偏积极",
+    "medium_risk_holding_count": 0
+  }
+}
