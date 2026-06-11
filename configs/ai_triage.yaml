@@ -1,0 +1,37 @@
+# Optional two-stage AI layer. Safe defaults: fully disabled, dry-run only,
+# and deterministic filters remain authoritative.
+enabled: false
+dry_run: true
+allow_ai_to_bypass_final_filter: false
+provider_check_sample_limit: 3
+fail_on_provider_check_error: false
+# Keep false by default. Set true only for a manual DeepSeek provider check profile.
+dry_run_provider_check: false
+
+coarse_stage:
+  enabled: false
+  provider: deepseek  # none | mock | deepseek
+  model: deepseek-v4-pro
+  # Raw provider model id only. Do not include Claude Code aliases such as [1m] here.
+  # Represent long-context operator intent separately with context_window.
+  # This is status/report metadata only unless DeepSeek documents a request field.
+  context_window: default  # default | 1m
+  # Sent as the DeepSeek-compatible chat/completions reasoning_effort parameter.
+  reasoning_effort: max
+  base_url: https://api.deepseek.com
+  api_key_env: DEEPSEEK_API_KEY
+  timeout_seconds: 90
+  batch_size: 10
+  sample_limit: 50
+  dry_run: true
+
+final_stage:
+  enabled: false
+  provider: none  # none | mock | openai_responses
+  model: gpt-5.3-codex  # OpenAI Responses API model; not a true Codex SDK/local agent path
+  base_url: ""
+  api_key_env: OPENAI_API_KEY
+  timeout_seconds: 60
+  batch_size: 5
+  sample_limit: 20
+  dry_run: true

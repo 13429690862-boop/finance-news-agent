@@ -1,0 +1,28 @@
+hn_algolia:
+  enabled: true
+  source_type: discussion
+  role: developer_demand
+  max_results: 20
+  timeout_seconds: 15
+
+gdelt:
+  enabled: true
+  source_type: news
+  role: market_signal
+  max_results: 20
+  timeout_seconds: 15
+
+stackexchange:
+  enabled: true
+  source_type: discussion
+  role: technical_demand
+  site: "stackoverflow"
+  sites:
+    - "stackoverflow"
+    - "webmasters"
+    - "softwareengineering"
+    - "magento"
+    - "wordpress"
+    - "salesforce"
+  max_results: 20
+  timeout_seconds: 15

@@ -1,0 +1,127 @@
+demand_intent_keywords:
+  - "looking for"
+  - "need"
+  - "alternative"
+  - "problem"
+  - "issue"
+  - "help"
+  - "recommend"
+  - "supplier"
+  - "agent"
+  - "freight forwarder"
+  - "quality control"
+  - "supplier inspection"
+  - "someone in china"
+  - "localization"
+  - "api"
+  - "payment"
+  - "manufacturer"
+  - "source from china"
+  - "import from china"
+china_relevance_keywords:
+  - "china"
+  - "chinese"
+  - "alibaba"
+  - "1688"
+  - "taobao"
+  - "wechat"
+  - "alipay"
+  - "supplier"
+  - "manufacturer"
+  - "sourcing"
+  - "source from china"
+  - "import from china"
+  - "freight forwarder"
+  - "quality control"
+  - "supplier inspection"
+market_intensity_high_keywords:
+  - "urgent"
+  - "need"
+  - "looking for"
+  - "help"
+  - "recommend"
+  - "problem"
+  - "issue"
+  - "alternative"
+  - "supplier"
+  - "payment"
+market_intensity_medium_keywords:
+  - "checklist"
+  - "guide"
+  - "how to"
+  - "service"
+  - "support"
+implementation_difficulty_high_keywords:
+  - "api"
+  - "integration"
+  - "platform"
+  - "automation"
+  - "compliance"
+  - "payment"
+implementation_difficulty_medium_keywords:
+  - "checklist"
+  - "guide"
+  - "template"
+  - "recommend"
+  - "agent"
+  - "quality control"
+  - "freight forwarder"
+  - "supplier inspection"
+monetization_clarity_high_keywords:
+  - "supplier"
+  - "agent"
+  - "freight forwarder"
+  - "quality control"
+  - "supplier inspection"
+  - "someone in china"
+  - "localization"
+  - "api"
+  - "payment"
+  - "manufacturer"
+  - "sourcing"
+  - "import"
+monetization_clarity_medium_keywords:
+  - "guide"
+  - "checklist"
+  - "template"
+  - "consultation"
+customer_type_rules:
+  - keywords: ["amazon", "shopify", "ecommerce", "seller", "store"]
+    customer_type: "Ecommerce sellers and import operators"
+  - keywords: ["freight", "forwarder", "shipping", "logistics"]
+    customer_type: "Importers managing cross-border logistics"
+  - keywords: ["api", "integration", "software", "developer"]
+    customer_type: "Software teams integrating China-facing workflows"
+  - keywords: ["localization", "translate", "language"]
+    customer_type: "Companies localizing products for Chinese users"
+  - keywords: ["supplier", "manufacturer", "sourcing", "quality control", "1688", "alibaba"]
+    customer_type: "SMB buyers sourcing from China"
+risk_note_rules:
+  default: "Derived from offline fixture keyword matching only; validate with fresh, representative demand evidence before committing resources."
+solution_rules:
+  - keywords: ["freight", "shipping"]
+    possible_solution: "A vetted freight-forwarder matching and shipment-readiness checklist."
+    monetization_model: "Referral fee, per-project service fee, or managed logistics coordination package."
+  - keywords: ["quality control", "supplier inspection"]
+    possible_solution: "A lightweight supplier quality-control coordination service."
+    monetization_model: "Fixed-scope service package or recurring QA retainer."
+  - keywords: ["api"]
+    possible_solution: "A documented integration layer or API advisory package for the requested workflow."
+    monetization_model: "Subscription, implementation fee, or paid API access."
+  - keywords: ["localization"]
+    possible_solution: "A localization QA package with bilingual review and market-readiness checks."
+    monetization_model: "Fixed-scope service package or recurring QA retainer."
+  - keywords: ["payment"]
+    possible_solution: "A payment-readiness guide and implementation support package."
+    monetization_model: "Paid setup support, implementation fee, or readiness checklist package."
+  - keywords: ["supplier", "manufacturer"]
+    possible_solution: "A curated provider shortlist plus a repeatable validation checklist."
+    monetization_model: "Referral fee, per-project service fee, or managed sourcing package."
+
+
+source_confidence:
+  hn_algolia: 0.85
+  gdelt: 0.70
+  stackexchange: 0.80
+  fixture: 1.00
+  default: 0.60

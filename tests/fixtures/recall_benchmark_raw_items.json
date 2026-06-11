@@ -1,0 +1,22 @@
+{
+  "true_demand": [
+    "Looking for a 1688 sourcing agent for Amazon FBA",
+    "Need China freight forwarder for small shipments",
+    "How to integrate WeChat Pay API for overseas ecommerce",
+    "Looking for verified manufacturers in Shenzhen",
+    "Need QC inspection before shipping from China",
+    "Alternative to Alibaba for verified suppliers",
+    "Need Taobao agent for bulk purchase",
+    "Looking for Chinese localization help for SaaS onboarding"
+  ],
+  "noise": [
+    "China politics debate",
+    "China economy news",
+    "historical China article",
+    "general Alibaba stock news",
+    "generic ecommerce discussion without China",
+    "generic supplier QC without China",
+    "generic payment issue without WeChat/Alipay/China",
+    "generic manufacturing article without China"
+  ]
+}

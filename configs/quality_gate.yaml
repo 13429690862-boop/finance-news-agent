@@ -1,0 +1,89 @@
+minimum_positive_groups: 2
+demand_intent_keywords:
+  - looking for
+  - need
+  - needs
+  - recommend
+  - recommendation
+  - help
+  - how do i
+  - how to
+  - alternative
+  - replacement
+  - seeking
+  - request for
+  - rfq
+actor_keywords:
+  - buyer
+  - seller
+  - founder
+  - developer
+  - importer
+  - exporter
+  - ecommerce
+  - merchant
+  - manufacturer
+  - factory
+  - agency
+  - startup
+  - saas
+  - marketplace
+  - operator
+  - business
+  - company
+  - supplier
+  - customer
+  - individual
+  - someone
+  - agent
+  - small business
+workflow_keywords:
+  - sourcing
+  - logistics
+  - shipping
+  - customs
+  - compliance
+  - payment
+  - api integration
+  - localization
+  - translation
+  - quality control
+  - manufacturing
+  - oem
+  - odm
+  - quality inspection
+  - supplier verification
+  - factory audit
+  - cross-border
+  - marketplace listing
+  - product research
+  - customer support
+  - documentation
+  - "1688"
+  - taobao
+  - alibaba
+  - buying agent
+  - purchase order
+  - freight forwarder
+  - ddp shipping
+  - wechat pay
+  - alipay
+  - china to us
+negative_topic_keywords:
+  - election
+  - politics
+  - diplomacy
+  - censorship
+  - propaganda
+  - war
+  - military
+  - sanction
+  - tax policy
+  - historical
+  - dynasty
+  - culture
+  - language trivia
+  - geopolitics
+  - debate
+  - social media
+  - death

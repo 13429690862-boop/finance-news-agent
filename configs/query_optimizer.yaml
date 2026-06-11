@@ -1,0 +1,6 @@
+enabled: true
+dry_run: true
+apply_changes: false
+max_additions_per_category: 3
+max_removals_per_category: 3
+allow_production_config_mutation: false

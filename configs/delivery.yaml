@@ -1,0 +1,9 @@
+enabled: false
+channel: none
+test_recipient_mode: true
+allow_non_test_recipient: false
+send_empty_report: true
+attach_markdown: true
+attach_json_summary: true
+fail_on_delivery_error: false
+dry_run_delivery_check: false

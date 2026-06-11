@@ -1,0 +1,77 @@
+queries:
+  china_sourcing_agents:
+    - "looking for 1688 sourcing agent"
+    - "need 1688 buying agent"
+    - "China sourcing agent for small business"
+    - "Alibaba alternative verified suppliers"
+    - "how to find Chinese manufacturer"
+    - "looking for Shenzhen manufacturer"
+    - "looking for someone in China sourcing help"
+    - "need supplier verification China"
+    - "China factory audit service"
+    - "QC inspection before shipping from China"
+    - "supplier inspection before China shipment"
+    - "Yiwu sourcing help"
+  cross_border_logistics:
+    - "need China freight forwarder"
+    - "shipping from China small business"
+    - "China customs clearance help"
+    - "freight forwarder for Alibaba order"
+    - "DDP shipping from China"
+    - "China to US small parcel forwarding"
+    - "China export logistics problem"
+    - "import from China documentation help"
+  china_payment_api:
+    - "WeChat Pay API integration help"
+    - "Alipay integration overseas ecommerce"
+    - "integrate WeChat Pay for Shopify"
+    - "China payment gateway for foreign company"
+    - "WeChat Pay merchant account overseas"
+    - "Alipay cross border payment API"
+  china_localization:
+    - "Chinese localization for SaaS"
+    - "localize app for Chinese users"
+    - "China app store compliance help"
+    - "Chinese documentation localization"
+    - "customer support Chinese market"
+    - "Chinese ecommerce localization"
+  china_market_entry:
+    - "sell to Chinese customers"
+    - "China market entry SaaS"
+    - "launch product in China"
+    - "Chinese ecommerce platform integration"
+    - "sell on Tmall from overseas"
+    - "JD.com merchant setup help"
+  software_api_workflows:
+    - "Alibaba API integration"
+    - "Taobao API integration"
+    - "1688 API access overseas"
+    - "WeChat mini program integration help"
+    - "China address validation API"
+    - "Chinese invoice fapiao API"
+    - "China tax invoice integration"
+  negative_or_noise_queries:
+    - "China politics debate"
+    - "China economy news"
+    - "historical China article"
+    - "general Alibaba stock news"
+
+source_profiles:
+  hn_algolia:
+    include_categories:
+      - china_sourcing_agents
+      - cross_border_logistics
+      - china_payment_api
+      - china_localization
+      - china_market_entry
+      - software_api_workflows
+  stackexchange:
+    include_categories:
+      - china_payment_api
+      - software_api_workflows
+      - china_localization
+  gdelt:
+    include_categories:
+      - china_sourcing_agents
+      - cross_border_logistics
+      - china_market_entry

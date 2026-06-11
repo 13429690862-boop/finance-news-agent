@@ -1,0 +1,93 @@
+[
+  {
+    "source": "mock_forum",
+    "source_type": "forum_post",
+    "url": "https://example.com/forums/alibaba-alternative",
+    "title": "Looking for an Alibaba alternative with vetted factories",
+    "content": "Our team wants smaller MOQ suppliers in China, but Alibaba search results feel noisy and hard to verify.",
+    "author": "fixture_user_01",
+    "published_at": "2026-01-05T10:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "Alibaba alternative for small business sourcing",
+    "language": "en",
+    "raw_metadata": {"topic": "sourcing", "fixture": true}
+  },
+  {
+    "source": "mock_forum",
+    "source_type": "forum_post",
+    "url": "https://example.com/forums/1688-agent",
+    "title": "Need a reliable 1688 agent for mixed product orders",
+    "content": "I can find better prices on 1688, but payment, supplier messages, and consolidation are difficult from Europe.",
+    "author": "fixture_user_02",
+    "published_at": "2026-01-06T11:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "1688 agent for international buyers",
+    "language": "en",
+    "raw_metadata": {"topic": "1688_taobao", "fixture": true}
+  },
+  {
+    "source": "mock_review",
+    "source_type": "review",
+    "url": "https://example.com/reviews/taobao-agent-problem",
+    "title": "Taobao agent problem with returns and damaged goods",
+    "content": "The agent shipped quickly, but return handling was unclear when a Taobao seller sent the wrong size.",
+    "author": "fixture_user_03",
+    "published_at": "2026-01-07T12:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "Taobao agent problem overseas shipping",
+    "language": "en",
+    "raw_metadata": {"topic": "1688_taobao", "fixture": true}
+  },
+  {
+    "source": "mock_forum",
+    "source_type": "forum_post",
+    "url": "https://example.com/forums/china-supplier-quality-control",
+    "title": "How do I manage China supplier quality control remotely?",
+    "content": "We need pre-shipment inspections and photo evidence before our China supplier sends inventory to Amazon FBA.",
+    "author": "fixture_user_04",
+    "published_at": "2026-01-08T13:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "China supplier quality control overseas sellers",
+    "language": "en",
+    "raw_metadata": {"topic": "sourcing", "fixture": true}
+  },
+  {
+    "source": "mock_forum",
+    "source_type": "forum_post",
+    "url": "https://example.com/forums/china-freight-forwarder",
+    "title": "China freight forwarder recommendations for small ecommerce brands",
+    "content": "Air freight quotes vary a lot, and I need someone to explain duties, cartons, and last-mile options clearly.",
+    "author": "fixture_user_05",
+    "published_at": "2026-01-09T14:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "China freight forwarder for ecommerce sellers",
+    "language": "en",
+    "raw_metadata": {"topic": "logistics", "fixture": true}
+  },
+  {
+    "source": "mock_social",
+    "source_type": "social_post",
+    "url": "https://example.com/social/chinese-localization",
+    "title": "Chinese localization feedback for a SaaS landing page",
+    "content": "Direct translation made our product page sound awkward, and we need examples that fit Chinese buyer expectations.",
+    "author": "fixture_user_06",
+    "published_at": "2026-01-10T15:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "Chinese localization for ecommerce listings",
+    "language": "en",
+    "raw_metadata": {"topic": "localization", "fixture": true}
+  },
+  {
+    "source": "mock_forum",
+    "source_type": "forum_post",
+    "url": "https://example.com/forums/wechat-api-issue",
+    "title": "WeChat API issue for overseas developer account verification",
+    "content": "The English docs do not explain which business license fields are required for the WeChat API approval flow.",
+    "author": "fixture_user_07",
+    "published_at": "2026-01-11T16:00:00Z",
+    "fetched_at": "2026-05-18T00:00:00Z",
+    "query": "WeChat API integration issue overseas developers",
+    "language": "en",
+    "raw_metadata": {"topic": "software_api", "fixture": true}
+  }
+]
