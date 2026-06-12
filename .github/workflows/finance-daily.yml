@@ -3,7 +3,7 @@ name: Finance Daily Report
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "30 1 * * *"
 
 permissions:
   contents: write
@@ -29,6 +29,18 @@ jobs:
       - name: Run finance daily report
         run: |
           python -m agent.main --mode finance-daily --json-summary
+
+      - name: Send report email
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          REPORT_RECIPIENT: ${{ secrets.REPORT_RECIPIENT }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          REPORT_SUBJECT: 每日理财消息面报告
+        run: |
+          python -m agent.email_sender
 
       - name: Commit generated reports
         run: |
