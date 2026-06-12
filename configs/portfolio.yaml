@@ -13,13 +13,13 @@ holdings:
     market: CN-A
     target_weight: 0.05
     notes: 电缆
- - symbol: 159325
+  - symbol: 159325
     name: 半导体ETF南方
     asset_type: fund
     market: CN-ETF
     target_weight: 0.1
     notes: 半导体ETF
-- symbol: 159325
+  - symbol: 159325
     name: 芯片ETF广发
     asset_type: fund
     market: CN-ETF
