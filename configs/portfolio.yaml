@@ -1,15 +1,27 @@
 # Replace these examples with your actual holdings.
 # target_weight is optional and should be written as a decimal, for example 0.20 = 20%.
 holdings:
-  - symbol: 600519
-    name: 贵州茅台
-    asset_type: stock
+  - symbol: 603618
+    name: 杭电股份
+    asset_type: fund
     market: CN-A
-    target_weight: 0.10
-    notes: 示例持仓，请替换
-  - symbol: 510300
-    name: 沪深300ETF
+    target_weight: 0.66
+    notes: 电缆
+  - symbol: 002560
+    name: 通达股份
+    asset_type: fund
+    market: CN-A
+    target_weight: 0.05
+    notes: 电缆
+ - symbol: 159325
+    name: 半导体ETF南方
     asset_type: fund
     market: CN-ETF
-    target_weight: 0.20
-    notes: 示例持仓，请替换
+    target_weight: 0.1
+    notes: 半导体ETF
+- symbol: 159325
+    name: 芯片ETF广发
+    asset_type: fund
+    market: CN-ETF
+    target_weight: 0.05
+    notes: 芯片ETF
