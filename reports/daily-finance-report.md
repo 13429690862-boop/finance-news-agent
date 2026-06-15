@@ -1,6 +1,6 @@
 # 持仓利好/利空消息与理财建议日报
 
-生成时间：2026-06-14T06:07:57Z
+生成时间：2026-06-15T06:39:27Z
 
 > 说明：本报告基于公开新闻标题/摘要和规则模型生成，仅用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。重大决策前请结合公告、财报、估值、流动性、仓位和个人风险承受能力复核。
 
@@ -10,7 +10,7 @@
 - 高风险观察持仓：0
 - 中风险观察持仓：0
 - 市场消息面：偏积极
-- 市场利好/利空/中性消息：7 / 6 / 66
+- 市场利好/利空/中性消息：8 / 5 / 67
 
 ## 持仓建议摘要
 
@@ -93,16 +93,16 @@
 
 ## 市场层面近期消息
 
-- [操盘必读：影响股市利好或利空消息_2026年6月11日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMilgFBVV95cUxPbXZUTmhva2VjT0ZVQnJUbUpmRHFSVFRYLVBTSE8zUG1CV19UY01sUHNmcTRkLTdSZHdVc2dGaWJweDZsaHhVaTlqVmFUM1VqVGpvTE12dkN2dzJmVThxcU0wRVVnWmNQREhsbUtqV1JYSkhXeVAzRGNoYTNveDBIVGlBMjhLVjloMmtqaHk3dlVFUFpBS0E?oc=5) — 新浪财经，2026-06-11T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [重磅！跨境炒股大收紧！A 股后市逻辑彻底变了！ - 财富号](https://news.google.com/rss/articles/CBMipAJBVV95cUxQZ0dSeVQ4dWF1ZzZHS1JZTEVBQ0pEakRBXzFPemNoa1FCOVo4RWUxNFU3UFljYTc1Yk1lcTY0ZVlkeDdSYjZaNEkzaXhHOWdGeVhuYXBoWkJCS0hVbWdtek50ai1ialhxV09Mb1g4TXkzMlpYeE5tay1pOHRlNEllUzNVRUROcm1NS19YZ2VDNnBmYXhBX1BxNlpjakdsYkkzUVNaNzB1eTJlMWZiRDJpRk54ZzZrTzlHYUlwMkFqekQ4R2pOR21iaVlsQk42d01wNWYwVUFid2FCNGUzcGFmcWVWNE5Tb3Q3angxTDB4VlJHNzI4OUhybEtqMTRMQ0ZldDhRMldLSkIycXNrcW10T18zVVBfM1RZTVFWR05RaWZoaU1M?oc=5) — 财富号，2026-05-27T07:00:00+00:00，neutral，影响分 1
-- [三大利好与四大利空解析 下周策略 - 财经号](https://news.google.com/rss/articles/CBMiakFVX3lxTE9GUUo3N1ppQndSN0dOZ0V4MlBOYklFN3Y3aG0tNk5yeFZBa0x6b2JlSV9kX082aUJ6NUQwTjQwQVppRlpLYWQwUW82VXd1NEdxR0ZVdE1YUFQ4Um1QVVpBdHdkSU5BSm10S0E?oc=5) — 财经号，2026-05-17T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [科技股遭遇抛压！市场主线是否生变？ - 证券时报](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Dd0pKb1pPWFVFRE0tTXlGdm5nZjhlWFBWeG5wYjl4OURwRkwyNmx1ZzZnX01fdlZ6UENVQS1SUXZidGU2eFZvZjZGaGRVc2x6MW9QOUdSNERFUGRh?oc=5) — 证券时报，2025-10-10T07:00:00+00:00，neutral，影响分 1
 - [利好与利空交织、政策定调“四稳” 节后A股如何走？ - 新浪新闻_手机新浪网](https://news.google.com/rss/articles/CBMidEFVX3lxTE1GMHYxMlpfSXlkRk9YRTV4bDh5anVOSjRxaFdVMG43aGJQMU8ybFJYMDlVMUhFWE5KTHBZYVZZVmJZNlpnb1RGWVJaM29OeFdVQi1Ld25HbU10cC01VzFHQVBuTXFKYzhIeUdVRnJhMTJuOHFK?oc=5) — 新浪新闻_手机新浪网，2026-05-05T07:00:00+00:00，neutral，影响分 2；原因：positive:利好, negative:利空, impact:政策
-- [今晚两利好两利空全景解读 明日主线推演（附股） - 财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTFBITUdHS2EtTFZGLW45OHdFdzR6MXdsR1ZyeXFXcDU5SlVpM2pOd2RFZ3B2bWp1cjFHU0FiMldMRFkyMFRNdDZSX0tIdEZuaEhIMmRUdlB1SDVIN3EtRnhITEhLUW9PNlNhTmlB?oc=5) — 财富号，2026-05-19T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [中金：美联储降息对我们是利好还是利空？ - 新浪财经](https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlhqSV80WWF4LWk3enhrSGx0OVVGcFVaRnNXTXprc19rTnNuNm9OSVpyOVIwbzRsMk81UlV3OG01U1NpZnFXa0I2MHlxSk1ZWjRJaW1KcEZoNWpqNEVYSTA1ZktZelpiX2xZWlBxMTNyQmhIVXlUZTZsTlItWFpmTVh3a3ZYdkpPdWRCcXVR?oc=5) — 新浪财经，2025-08-18T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [利好出尽是利空！华尔街策略师警告：降息后美股涨势恐熄火 - Moomoo](https://news.google.com/rss/articles/CBMirwFBVV95cUxOQmtYS19PLXNaVDRTcVZOakwzWGluZzFFbEFDdFQwY3hlY3M2cHZGUFhoTGNmRUo0aFFCclR4UzJGVzJ2UXZfR0U1dWx6ZGZBaFdVRm9BNnlPTmVIYU1oMTJQa0lEc3RYN0VHSFJ5a25tVGRwUUVib3BZd1BXOGxJVGgtYm0yb2Qwa1puaThuUkxGVkFsRk95TEdhU1VJNTByQkpiUkthbThzNFYyM3Zr?oc=5) — Moomoo，2025-09-15T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [股票开高走低原因有哪些?短期关注重点看这里 - EBC Financial Group](https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mLUhXanE1eXZDLWNBdkJFM3BpWFF6WVNkQUk2X0Z2ZWFhWF9yN0xCd0RHeUgzOHNMN1J6cDZwWngtNklFODdhMFJNY0VtZ1JaQzI1RnhzcjA?oc=5) — EBC Financial Group，2025-10-28T07:00:00+00:00，neutral，影响分 1
-- [“破顶反跌”戏码重演，3900点攻而不破有何玄机？ - 21财经](https://news.google.com/rss/articles/CBMijwFBVV95cUxNWUt5UjBRZ0hFWWtNamVKZF9KbmM2OXdjOGVmTFFJdGpNRUQxV1dCczVkaHozMlRkUVNtNG9DNHNEU2ZHaXIxcUxiTGYtS0pUQWwzMjJDS0lZSktfYmpIeE5EV1M1SzUzS1ZKcWJNR0VBOUt0VFg5NklNZ2V1cllDMjRoNE12S08wU05qQklQRQ?oc=5) — 21财经，2025-09-20T07:00:00+00:00，neutral，影响分 1
+- [重磅！跨境炒股大收紧！A 股后市逻辑彻底变了！ - 财富号](https://news.google.com/rss/articles/CBMipAJBVV95cUxQZ0dSeVQ4dWF1ZzZHS1JZTEVBQ0pEakRBXzFPemNoa1FCOVo4RWUxNFU3UFljYTc1Yk1lcTY0ZVlkeDdSYjZaNEkzaXhHOWdGeVhuYXBoWkJCS0hVbWdtek50ai1ialhxV09Mb1g4TXkzMlpYeE5tay1pOHRlNEllUzNVRUROcm1NS19YZ2VDNnBmYXhBX1BxNlpjakdsYkkzUVNaNzB1eTJlMWZiRDJpRk54ZzZrTzlHYUlwMkFqekQ4R2pOR21iaVlsQk42d01wNWYwVUFid2FCNGUzcGFmcWVWNE5Tb3Q3angxTDB4VlJHNzI4OUhybEtqMTRMQ0ZldDhRMldLSkIycXNrcW10T18zVVBfM1RZTVFWR05RaWZoaU1M?oc=5) — 财富号，2026-05-27T07:00:00+00:00，neutral，影响分 1
+- [科技股遭遇抛压！市场主线是否生变？ - 证券时报](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Dd0pKb1pPWFVFRE0tTXlGdm5nZjhlWFBWeG5wYjl4OURwRkwyNmx1ZzZnX01fdlZ6UENVQS1SUXZidGU2eFZvZjZGaGRVc2x6MW9QOUdSNERFUGRh?oc=5) — 证券时报，2025-10-10T07:00:00+00:00，neutral，影响分 1
+- [利好不涨利空不跌？这才是真相 - 财经号](https://news.google.com/rss/articles/CBMia0FVX3lxTE5Pd01PZDFLTUlwenktbGpyd0ZRWEtzTjJYQmhySWp6YkV3aWkzOGNtNl94cV9YZ2ZwYnJQOEVPRmF0VVNyVFFfem9FaHJzMTA2ZTFQWVlqMzVEU3FCVFB5Mm16aHZteElRVlFB?oc=5) — 财经号，2025-10-09T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
+- [操盘必读：影响股市利好或利空消息_2026年3月9日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTFBIZlpiYkcwVnhkcHRxVTVtNF9oUVo1Umhrc1JzTUg4MHZhbjFTRXMyVnJ5ZWNmRlh0eW05LWlQY0F2aXJSeGNidXpCc0NnblBwckZyWkZGdlFwaDRQSmt3R0J4YlRsXzAzaUFaOGRYN0thSlFRT0psSA?oc=5) — 新浪财经，2026-03-09T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
+- [中金：美联储降息对我们是利好还是利空？ - Sina finance](https://news.google.com/rss/articles/CBMijgFBVV95cUxNYlhqSV80WWF4LWk3enhrSGx0OVVGcFVaRnNXTXprc19rTnNuNm9OSVpyOVIwbzRsMk81UlV3OG01U1NpZnFXa0I2MHlxSk1ZWjRJaW1KcEZoNWpqNEVYSTA1ZktZelpiX2xZWlBxMTNyQmhIVXlUZTZsTlItWFpmTVh3a3ZYdkpPdWRCcXVR?oc=5) — Sina finance，2025-08-18T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
+- [上海临港：年初至今跌跌不休（深度）分析，索赔或有路径——1月底、2月初开始的这波 - 财富号](https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaS1rbkIzM1lpbEpjaDYyaW5lc0hRVHRSVXhOcjU5djhiZUFPbm80aUhsU2lnNjBnRzVNZGVfMjh4Z2tPNWVTQ1g0UnplWjNOUnA5a2RURWJhbDVBYi1MNjJkS096bUh5TGNrV0ZuYVR1VUZFUGdzVUIwWGxTY01pSTIyV3dnS082d3Y0R000UWhGb09oOGFvanZWSGc3S1A4aHlFWlRqYXFZZUxCVVpGYzI4R25RWC1Wc1hwN3NuRGdTVGI3SWFmYlhrcjViZFdoTHFVTmhDNWZoQ0RCOE5wY2NMa3JqcUJuckt1dlZnZnpfWl9vRF9TZ3NB?oc=5) — 财富号，2026-05-28T07:00:00+00:00，neutral，影响分 1
+- [操盘必读：影响股市利好或利空消息_2026年3月24日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE9faTVjNFFaSFFhUGtqTnhxUk8xMllhOFFMNjZYbHBlTjluam1IS3lnblJvU21BZ2ZaTkF4dndCWXhHbDhNZHNnZWp6ZE5vV0hTRmRnRGE1aFFOblExRmxXT1dUdnFqcWVYWEdCanNiM05mczEtblhBWA?oc=5) — 新浪财经，2026-03-24T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
+- [泰舜观察|特朗普访华对A股市场的影响分析 - 财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTE5FTUtlU1FQd1p4djJabnVUcUxpWHpySnN4STA3a1FRa3hHenpYTVh5bE1KaFlza3FfX0FkQmZHU1RReDVsZ0pxdURlc0xTRjJPNUpUOVdyOVRpNTFJb0pZY1AwSlY1b2k1dkV3?oc=5) — 财富号，2026-05-15T07:00:00+00:00，neutral，影响分 1
+- [操盘必读：影响股市利好或利空消息_2026年4月1日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE04VWowdFhZYXJVYkk0eExxbTFzajlhLVA0ak9qVHloRWpmV1pTYnU3RFpkUkk0NnVGaW1HLTExcFhiTXI4a2RLY3NNRHFTWmVYLUhtdjlMSDRSM2ZRSVZvMWlGR2xibUhNZ1Z0aDNCc1AwM1BZNmRDcg?oc=5) — 新浪财经，2026-04-01T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
 
 
 ## 数据源状态
