@@ -28,6 +28,7 @@ def send_report_email() -> None:
     message["Subject"] = subject
     message.set_content(report_text)
 
+    # 附件 1：Markdown 日报
     message.add_attachment(
         report_text.encode("utf-8"),
         maintype="text",
@@ -35,6 +36,7 @@ def send_report_email() -> None:
         filename="daily-finance-report.md",
     )
 
+    # 附件 2：JSON 摘要
     if summary_path.exists():
         message.add_attachment(
             summary_path.read_bytes(),
@@ -42,18 +44,21 @@ def send_report_email() -> None:
             subtype="json",
             filename="daily-finance-summary.json",
         )
-extra_paths = [
-    Path("reports/inbox-finance-digest.md"),
-]
 
-for extra_path in extra_paths:
-    if extra_path.exists():
-        message.add_attachment(
-            extra_path.read_bytes(),
-            maintype="text",
-            subtype="markdown",
-            filename=extra_path.name,
-        )
+    # 附件 3：邮箱财经摘要，如果存在就一起发送
+    extra_paths = [
+        Path("reports/inbox-finance-digest.md"),
+    ]
+
+    for extra_path in extra_paths:
+        if extra_path.exists():
+            message.add_attachment(
+                extra_path.read_bytes(),
+                maintype="text",
+                subtype="markdown",
+                filename=extra_path.name,
+            )
+
     with smtplib.SMTP_SSL(smtp_host, smtp_port) as smtp:
         smtp.login(smtp_username, smtp_password)
         smtp.send_message(message)
