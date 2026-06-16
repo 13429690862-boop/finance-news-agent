@@ -42,7 +42,18 @@ def send_report_email() -> None:
             subtype="json",
             filename="daily-finance-summary.json",
         )
+extra_paths = [
+    Path("reports/inbox-finance-digest.md"),
+]
 
+for extra_path in extra_paths:
+    if extra_path.exists():
+        message.add_attachment(
+            extra_path.read_bytes(),
+            maintype="text",
+            subtype="markdown",
+            filename=extra_path.name,
+        )
     with smtplib.SMTP_SSL(smtp_host, smtp_port) as smtp:
         smtp.login(smtp_username, smtp_password)
         smtp.send_message(message)
