@@ -1,6 +1,6 @@
 # 持仓利好/利空消息与理财建议日报
 
-生成时间：2026-06-18T06:12:21Z
+生成时间：2026-06-19T06:32:09Z
 
 > 说明：本报告基于公开新闻标题/摘要和规则模型生成，仅用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。重大决策前请结合公告、财报、估值、流动性、仓位和个人风险承受能力复核。
 
@@ -9,8 +9,8 @@
 - 持仓数量：4
 - 高风险观察持仓：0
 - 中风险观察持仓：0
-- 市场消息面：偏积极
-- 市场利好/利空/中性消息：4 / 3 / 73
+- 市场消息面：中性
+- 市场利好/利空/中性消息：5 / 5 / 70
 
 ## 持仓建议摘要
 
@@ -101,8 +101,8 @@
 - [泰舜观察|特朗普访华对A股市场的影响分析 - 财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTE5FTUtlU1FQd1p4djJabnVUcUxpWHpySnN4STA3a1FRa3hHenpYTVh5bE1KaFlza3FfX0FkQmZHU1RReDVsZ0pxdURlc0xTRjJPNUpUOVdyOVRpNTFJb0pZY1AwSlY1b2k1dkV3?oc=5) — 财富号，2026-05-15T07:00:00+00:00，neutral，影响分 1
 - [操盘必读：影响股市利好或利空消息_2026年3月10日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE1RQWxhQjJoSjRka2tSNTQ2aXF4SFp5SXVoN2NCbDhONWxDVUo0UW1DdlpBLUV2MF82NXMtTGtZNGlFODdWZnpyOXE3aDRRVEwtRktfY2xCRlJhNkU4bmJYLTZISWF6UEw4azdFNVFXd21La0pQenljRw?oc=5) — 新浪财经，2026-03-10T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
 - [操盘必读：影响股市利好或利空消息_2026年3月24日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE9faTVjNFFaSFFhUGtqTnhxUk8xMllhOFFMNjZYbHBlTjluam1IS3lnblJvU21BZ2ZaTkF4dndCWXhHbDhNZHNnZWp6ZE5vV0hTRmRnRGE1aFFOblExRmxXT1dUdnFqcWVYWEdCanNiM05mczEtblhBWA?oc=5) — 新浪财经，2026-03-24T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [操盘必读：影响股市利好或利空消息_2026年4月1日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE04VWowdFhZYXJVYkk0eExxbTFzajlhLVA0ak9qVHloRWpmV1pTYnU3RFpkUkk0NnVGaW1HLTExcFhiTXI4a2RLY3NNRHFTWmVYLUhtdjlMSDRSM2ZRSVZvMWlGR2xibUhNZ1Z0aDNCc1AwM1BZNmRDcg?oc=5) — 新浪财经，2026-04-01T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
 - [操盘必读：影响股市利好或利空消息_2026年4月20日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE5QR2JEa193d0RYWEd4X1FoNk83c0dKYUdkcnRGOFFveXNNdUhqRFAtZERvV2s2R2o3NzJ3U3RvOFFxVXNtcjc2d1ZMakZzYTFWYl9DRE84T1Q5OEYybEJrYm9nWXV0QWZSbjZYSXNmM3llRXlkQnNhcQ?oc=5) — 新浪财经，2026-04-20T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
+- [操盘必读：影响股市利好或利空消息_2025年12月15日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE5ycmVycWR2N3pDMDZYVl9Md2RwaDJFdldZY09CVUwzWW43cEVMU1dia3J5dTRDM2tJS3hhX212dzctR2xjVFVyX2hqWW9nNTBQWnFaWENPSjE4UTNJU2RfdmFMYmZ6ZnhoUF9GaTNmbzRuLUhzTzNCdw?oc=5) — 新浪财经，2025-12-15T08:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
 
 
 ## 数据源状态
