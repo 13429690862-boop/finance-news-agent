@@ -97,6 +97,8 @@ def _fetch_google_news_rss(query: str, max_items: int, language: str, country: s
     import httpx
 
     ceid = f"{country}:zh-Hans" if language.startswith("zh") else f"{country}:en"
+    if "when:" not in query:
+    query = f"{query} when:2d"
     url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl={quote_plus(language)}&gl={quote_plus(country)}&ceid={quote_plus(ceid)}"
     try:
         with httpx.Client(timeout=timeout_seconds, headers={"User-Agent": "portfolio-news-agent/1.0"}) as client:
@@ -109,6 +111,11 @@ def _fetch_google_news_rss(query: str, max_items: int, language: str, country: s
     rows: list[FinanceNewsItem] = []
     for node in root.findall(".//item")[:max_items]:
         title = _text(node.findtext("title"))
+        if published is None:
+    continue
+
+if published < datetime.now(timezone.utc) - timedelta(days=3):
+    continue
         link = _text(node.findtext("link"))
         published = _parse_rss_date(_text(node.findtext("pubDate")))
         source_node = node.find("source")
