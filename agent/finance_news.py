@@ -214,3 +214,33 @@ def _text(value: Any) -> str:
     if value is None:
         return ""
     return re.sub(r"\s+", " ", str(value)).strip()
+    from datetime import datetime, timezone, timedelta
+from email.utils import parsedate_to_datetime
+
+
+def parse_published_at(value: str | None) -> datetime | None:
+    if not value:
+        return None
+
+    try:
+        dt = parsedate_to_datetime(value)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        return None
+
+
+def is_recent_news(
+    published_at: datetime | None,
+    *,
+    max_age_days: int,
+    drop_without_date: bool = True,
+) -> bool:
+    if published_at is None:
+        return not drop_without_date
+
+    now = datetime.now(timezone.utc)
+    oldest_allowed = now - timedelta(days=max_age_days)
+
+    return published_at >= oldest_allowed
