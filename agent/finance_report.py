@@ -8,7 +8,16 @@ from pathlib import Path
 from typing import Any
 
 from agent.finance_models import FinanceNewsItem, HoldingAssessment
+def _fmt_number(value: float | None) -> str:
+    if value is None:
+        return "无数据"
+    return f"{value:.2f}"
 
+
+def _fmt_percent(value: float | None) -> str:
+    if value is None:
+        return "无数据"
+    return f"{value:.2f}%"
 
 def generate_finance_markdown_report(
     assessments: list[HoldingAssessment],
@@ -16,6 +25,7 @@ def generate_finance_markdown_report(
     summary: dict[str, Any],
     output_path: str | Path,
     source_status: dict[str, Any] | None = None,
+    technical_signals: list[Any] | None = None,
 ) -> Path:
     path = Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -87,7 +97,36 @@ def generate_finance_markdown_report(
     lines.extend(["", "## 数据源状态", ""])
     for name, status in (source_status or {}).items():
         lines.append(f"- {name}: {status}")
+    lines.extend(
+        [
+            "",
+            "## 个股 / 基金走势技术分析",
+            "",
+        ]
+    )
 
+    if not technical_signals:
+        lines.append("未获取到有效行情数据，暂不生成技术面分析。")
+    else:
+        for signal in technical_signals:
+            lines.extend(
+                [
+                    f"### {signal.name}（{signal.symbol}）",
+                    "",
+                    f"- 数据代码：{signal.yahoo_symbol}",
+                    f"- 最新收盘价：{_fmt_number(signal.last_close)}",
+                    f"- 近 5 日涨跌幅：{_fmt_percent(signal.change_5d)}",
+                    f"- 近 20 日涨跌幅：{_fmt_percent(signal.change_20d)}",
+                    f"- MA5 / MA20 / MA60：{_fmt_number(signal.ma5)} / {_fmt_number(signal.ma20)} / {_fmt_number(signal.ma60)}",
+                    f"- 近 20 日波动率：{_fmt_percent(signal.volatility_20d)}",
+                    f"- 趋势判断：{signal.trend}",
+                    f"- 技术风险：{signal.risk_level}",
+                    f"- 参考支撑位：{_fmt_number(signal.support)}",
+                    f"- 参考压力位：{_fmt_number(signal.resistance)}",
+                    f"- 分析师视角：{signal.analyst_view}",
+                    "",
+                ]
+            )
     path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     return path
 
