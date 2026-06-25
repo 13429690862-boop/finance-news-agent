@@ -1,6 +1,6 @@
 # 持仓利好/利空消息与理财建议日报
 
-生成时间：2026-06-24T05:12:35Z
+生成时间：2026-06-25T03:19:19Z
 
 > 说明：本报告基于公开新闻标题/摘要和规则模型生成，仅用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。重大决策前请结合公告、财报、估值、流动性、仓位和个人风险承受能力复核。
 
@@ -9,8 +9,8 @@
 - 持仓数量：4
 - 高风险观察持仓：0
 - 中风险观察持仓：0
-- 市场消息面：偏谨慎
-- 市场利好/利空/中性消息：7 / 8 / 65
+- 市场消息面：中性
+- 市场利好/利空/中性消息：0 / 0 / 0
 
 ## 持仓建议摘要
 
@@ -93,18 +93,10 @@
 
 ## 市场层面近期消息
 
-- [特朗普市场：一场“利好就买、利空忽略”的短视狂欢 - QQ News](https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oaHlUM0M3cXJXRTQzSWZwWk9DV2RVa2ZtYnB2enctVE44OWZodmdTLS1fdE82dFgxYUtCZHNfY0ZkZFpHSU1ILTNkVzVYcmhfY2VwcGV3?oc=5) — QQ News，2026-06-20T14:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [10大利空，导演科技大跌！ - 新浪财经](https://news.google.com/rss/articles/CBMidkFVX3lxTE5wTGtfdTVFQ1Jhd01Rc3NHaUFrZGVDUzVWdGlFanVrenhOcVZRZGFNNVdiaHpSN2VNVFJxbFNDbkRZMEEtTjlKU2prMm5abjdPZ0hYRXdsZTlZMnBrSnBtMy0xdTktdG9uY1kzdjVCMFVOQUJrU3c?oc=5) — 新浪财经，2026-06-05T07:00:00+00:00，negative，影响分 2；原因：negative:利空
-- [操盘必读：影响股市利好或利空消息_2026年3月9日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTFBIZlpiYkcwVnhkcHRxVTVtNF9oUVo1Umhrc1JzTUg4MHZhbjFTRXMyVnJ5ZWNmRlh0eW05LWlQY0F2aXJSeGNidXpCc0NnblBwckZyWkZGdlFwaDRQSmt3R0J4YlRsXzAzaUFaOGRYN0thSlFRT0psSA?oc=5) — 新浪财经，2026-03-09T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [冰火两重天！指数红盘3700股却跌，接下来唯一能赚钱的方向是？ - 雪球](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9na1J6Rm94VFVLRWdoZ2Z4bFhEbGtuaTJXR3FxMHFDN0lTS0Q1R0pWcjI5X3JxS2JHMHhMQjlza2RGVkF2MTlfOWs0dE5qUGJP?oc=5) — 雪球，2026-06-03T07:00:00+00:00，neutral，影响分 1
-- [三大利好与四大利空解析 下周策略 - 财经号](https://news.google.com/rss/articles/CBMiakFVX3lxTE9GUUo3N1ppQndSN0dOZ0V4MlBOYklFN3Y3aG0tNk5yeFZBa0x6b2JlSV9kX082aUJ6NUQwTjQwQVppRlpLYWQwUW82VXd1NEdxR0ZVdE1YUFQ4Um1QVVpBdHdkSU5BSm10S0E?oc=5) — 财经号，2026-05-17T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [泰舜观察|特朗普访华对A股市场的影响分析 - 财富号](https://news.google.com/rss/articles/CBMia0FVX3lxTE5FTUtlU1FQd1p4djJabnVUcUxpWHpySnN4STA3a1FRa3hHenpYTVh5bE1KaFlza3FfX0FkQmZHU1RReDVsZ0pxdURlc0xTRjJPNUpUOVdyOVRpNTFJb0pZY1AwSlY1b2k1dkV3?oc=5) — 财富号，2026-05-15T07:00:00+00:00，neutral，影响分 1
-- [科技股遭遇抛压！市场主线是否生变？ - 证券时报](https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Dd0pKb1pPWFVFRE0tTXlGdm5nZjhlWFBWeG5wYjl4OURwRkwyNmx1ZzZnX01fdlZ6UENVQS1SUXZidGU2eFZvZjZGaGRVc2x6MW9QOUdSNERFUGRh?oc=5) — 证券时报，2025-10-10T07:00:00+00:00，neutral，影响分 1
-- [操盘必读：影响股市利好或利空消息_2026年3月10日_财经新闻 - 新浪财经](https://news.google.com/rss/articles/CBMieEFVX3lxTE1RQWxhQjJoSjRka2tSNTQ2aXF4SFp5SXVoN2NCbDhONWxDVUo0UW1DdlpBLUV2MF82NXMtTGtZNGlFODdWZnpyOXE3aDRRVEwtRktfY2xCRlJhNkU4bmJYLTZISWF6UEw4azdFNVFXd21La0pQenljRw?oc=5) — 新浪财经，2026-03-10T07:00:00+00:00，neutral，影响分 1；原因：positive:利好, negative:利空
-- [为什么内资在砸AI，外资却在买电力？看懂这波资金腾挪? - 雪球](https://news.google.com/rss/articles/CBMiUEFVX3lxTE9kMEZOR0tMSElEV0w4dUZRd0NyUFRaSEZJQzZyRm9samhHc2pzQVhkYTR3S1BlUllySkFVdHFBR2tTN0JWdjdvM2U2cEpPek8w?oc=5) — 雪球，2026-06-04T07:56:00+00:00，neutral，影响分 1
-- [今夜，美联储，利空突袭！芯片半导体，集体大跌 - 新浪财经](https://news.google.com/rss/articles/CBMidkFVX3lxTE0xeTEtYXAwaWxSVG5XaWwzV0U0SUtnd21CTGFOT21QZy1MWVRsZHFfN2VGTmlpYk9VZDRQRS1DYjlRZ2l0SjVFOU9BNWFGRFRXVVVKMnVZY0FwTGltR0oxYWhlbVB6ZHJjdlBKY01GWDNDbDJWdmc?oc=5) — 新浪财经，2026-05-13T07:00:00+00:00，negative，影响分 2；原因：negative:利空
+- 暂无。
 
 
 ## 数据源状态
 
-- google_news_rss: {'status': 'ok', 'count': 80}
+- google_news_rss: {'status': 'ok', 'count': 0}
+- gdelt: {'status': 'ok', 'count': 0}
