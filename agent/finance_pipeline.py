@@ -10,6 +10,7 @@ from agent.finance_advisor import build_holding_assessments, build_portfolio_sum
 from agent.finance_config import load_finance_config, load_portfolio
 from agent.finance_news import collect_finance_news
 from agent.finance_report import generate_finance_json_summary, generate_finance_markdown_report
+from agent.technical_analysis import analyze_holding_technical
 
 
 def run_finance_daily_pipeline(
@@ -21,13 +22,32 @@ def run_finance_daily_pipeline(
     config = load_finance_config(finance_config_path)
     holdings = load_portfolio(portfolio_path)
     news_items, collection_summary = collect_finance_news(holdings, config)
-    market_news = [item for item in news_items if not item.holding_symbol]
-    assessments = build_holding_assessments(holdings, news_items, config)
-    summary = build_portfolio_summary(assessments, market_news)
+market_news = [item for item in news_items if not item.holding_symbol]
+
+technical_signals = []
+for holding in holdings:
+    technical_signals.append(
+        analyze_holding_technical(
+            symbol=holding.symbol,
+            name=holding.name,
+            market=holding.market,
+            asset_type=holding.asset_type,
+        )
+    )
+
+assessments = build_holding_assessments(holdings, news_items, config)
+summary = build_portfolio_summary(assessments, market_news)
     date_label = datetime.now(UTC).date().isoformat()
     report_path = Path(markdown_report_path or f"reports/{date_label}-finance-report.md")
     json_path = Path(json_summary_path) if json_summary_path is not None else None
-    generate_finance_markdown_report(assessments, market_news, summary, report_path, collection_summary.get("sources", {}))
+   generate_finance_markdown_report(
+    assessments,
+    market_news,
+    summary,
+    report_path,
+    collection_summary.get("sources", {}),
+    technical_signals=technical_signals,
+)
     if json_path is not None:
         generate_finance_json_summary(assessments, market_news, summary, json_path, collection_summary.get("sources", {}))
     return {
