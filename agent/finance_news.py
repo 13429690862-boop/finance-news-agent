@@ -90,16 +90,19 @@ def _collect_query(query: str, config: dict[str, Any], max_items: int, lookback_
 
     return rows[:max_items], status
 
-
 def _fetch_google_news_rss(query: str, max_items: int, language: str, country: str, timeout_seconds: int) -> list[FinanceNewsItem]:
     if find_spec("httpx") is None:
         return []
+
     import httpx
 
-    ceid = f"{country}:zh-Hans" if language.startswith("zh") else f"{country}:en"
     if "when:" not in query:
-    query = f"{query} when:2d"
-    url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl={quote_plus(language)}&gl={quote_plus(country)}&ceid={quote_plus(ceid)}"
+        query = f"{query} when:2d"
+
+    url = (
+        "https://news.google.com/rss/search?"
+        f"q={quote_plus(query)}&hl={language}&gl={country}&ceid={country}:{language}"
+    )
     try:
         with httpx.Client(timeout=timeout_seconds, headers={"User-Agent": "portfolio-news-agent/1.0"}) as client:
             response = client.get(url)
