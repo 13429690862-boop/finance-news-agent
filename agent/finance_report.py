@@ -141,6 +141,54 @@ lines.extend(
                     "",
                 ]
             )
+                lines.extend(
+        [
+            "",
+            "## 交叉验证与信息缺口登记",
+            "",
+            "本节用于防止模型幻觉：凡是缺少来源、缺少行情或消息不足的地方，均明确标注。",
+            "",
+        ]
+    )
+
+    technical_by_symbol = {}
+    if technical_signals:
+        technical_by_symbol = {
+            signal.symbol: signal for signal in technical_signals
+        }
+
+    for assessment in assessments:
+        signal = technical_by_symbol.get(assessment.symbol)
+
+        verification = build_verification_result(
+            holding_name=assessment.name,
+            holding_symbol=assessment.symbol,
+            news_count=assessment.positive_news_count + assessment.negative_news_count,
+            positive_count=assessment.positive_news_count,
+            negative_count=assessment.negative_news_count,
+            technical_signal=signal,
+            sources=source_status,
+        )
+
+        lines.extend(
+            [
+                f"### {assessment.name}（{assessment.symbol}）",
+                "",
+                f"- 来源置信度：{verification.source_confidence}",
+                f"- SA 数据矛盾检查：{'未发现明显冲突' if not verification.warnings else '；'.join(verification.warnings)}",
+                f"- SB 信息缺口：{'无明显缺口' if not verification.data_gaps else '；'.join(verification.data_gaps)}",
+                "- SC 来源登记：",
+            ]
+        )
+
+        for source in verification.source_register:
+            lines.append(f"  - {source}")
+
+        lines.append("- SD 后续检索关键词：")
+        for keyword in verification.search_keywords:
+            lines.append(f"  - {keyword}")
+
+        lines.append("")
     path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
     return path
 
