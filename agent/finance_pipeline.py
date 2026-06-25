@@ -1,5 +1,3 @@
-"""End-to-end portfolio news monitoring pipeline."""
-
 from __future__ import annotations
 
 from datetime import UTC, datetime
@@ -21,35 +19,46 @@ def run_finance_daily_pipeline(
 ) -> dict[str, Any]:
     config = load_finance_config(finance_config_path)
     holdings = load_portfolio(portfolio_path)
+
     news_items, collection_summary = collect_finance_news(holdings, config)
-market_news = [item for item in news_items if not item.holding_symbol]
+    market_news = [item for item in news_items if not item.holding_symbol]
 
-technical_signals = []
-for holding in holdings:
-    technical_signals.append(
-        analyze_holding_technical(
-            symbol=holding.symbol,
-            name=holding.name,
-            market=holding.market,
-            asset_type=holding.asset_type,
+    technical_signals = []
+    for holding in holdings:
+        technical_signals.append(
+            analyze_holding_technical(
+                symbol=holding.symbol,
+                name=holding.name,
+                market=holding.market,
+                asset_type=holding.asset_type,
+            )
         )
-    )
 
-assessments = build_holding_assessments(holdings, news_items, config)
-summary = build_portfolio_summary(assessments, market_news)
+    assessments = build_holding_assessments(holdings, news_items, config)
+    summary = build_portfolio_summary(assessments, market_news)
+
     date_label = datetime.now(UTC).date().isoformat()
     report_path = Path(markdown_report_path or f"reports/{date_label}-finance-report.md")
     json_path = Path(json_summary_path) if json_summary_path is not None else None
-   generate_finance_markdown_report(
-    assessments,
-    market_news,
-    summary,
-    report_path,
-    collection_summary.get("sources", {}),
-    technical_signals=technical_signals,
-)
+
+    generate_finance_markdown_report(
+        assessments,
+        market_news,
+        summary,
+        report_path,
+        collection_summary.get("sources", {}),
+        technical_signals=technical_signals,
+    )
+
     if json_path is not None:
-        generate_finance_json_summary(assessments, market_news, summary, json_path, collection_summary.get("sources", {}))
+        generate_finance_json_summary(
+            assessments,
+            market_news,
+            summary,
+            json_path,
+            collection_summary.get("sources", {}),
+        )
+
     return {
         "holding_count": len(holdings),
         "news_count": len(news_items),
