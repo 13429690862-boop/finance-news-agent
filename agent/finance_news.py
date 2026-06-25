@@ -103,6 +103,7 @@ def _fetch_google_news_rss(query: str, max_items: int, language: str, country: s
         "https://news.google.com/rss/search?"
         f"q={quote_plus(query)}&hl={language}&gl={country}&ceid={country}:{language}"
     )
+
     try:
         with httpx.Client(timeout=timeout_seconds, headers={"User-Agent": "portfolio-news-agent/1.0"}) as client:
             response = client.get(url)
@@ -111,7 +112,7 @@ def _fetch_google_news_rss(query: str, max_items: int, language: str, country: s
     except Exception:
         return []
 
-       rows: list[FinanceNewsItem] = []
+    rows: list[FinanceNewsItem] = []
     for node in root.findall(".//item")[:max_items]:
         title = _text(node.findtext("title"))
         link = _text(node.findtext("link"))
@@ -138,7 +139,6 @@ def _fetch_google_news_rss(query: str, max_items: int, language: str, country: s
             )
 
     return rows
-
 
 def _fetch_gdelt_news(query: str, max_items: int, lookback_days: int, timeout_seconds: int) -> list[FinanceNewsItem]:
     if find_spec("httpx") is None:
