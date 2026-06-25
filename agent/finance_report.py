@@ -48,7 +48,7 @@ def generate_finance_markdown_report(
     "### 硬规则",
     "",
 ]
-    for rule in ANTI_HALLUCINATION_RULES:
+for rule in ANTI_HALLUCINATION_RULES:
     lines.append(f"- {rule}")
 
 lines.extend(
