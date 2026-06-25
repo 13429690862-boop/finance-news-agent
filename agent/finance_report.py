@@ -38,33 +38,34 @@ def generate_finance_markdown_report(
     path = Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = [
-    "# 持仓利好/利空消息与理财建议日报",
-    "",
-    "## 分析师角色与反幻觉规则",
-    "",
-    f"- 角色设定：{ANALYST_PERSONA}",
-    "- 重要说明：本报告用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。",
-    "",
-    "### 硬规则",
-    "",
-]
-for rule in ANTI_HALLUCINATION_RULES:
-    lines.append(f"- {rule}")
-
-lines.extend(
-    [
+        "# 持仓利好/利空消息与理财建议日报",
         "",
-        "### 交叉验证流程",
+        "## 分析师角色与反幻觉规则",
         "",
-        "- SA 数据矛盾：检查新闻、行情、持仓建议之间是否互相冲突。",
-        "- SB 信息缺口：如果没有新闻、没有行情或缺少公告来源，必须标注数据不足。",
-        "- SC 来源登记：报告记录数据源状态，不把无来源内容写成事实。",
-        "- SD 检索关键词：为每个标的登记后续可人工复核的关键词。",
+        f"- 角色设定：{ANALYST_PERSONA}",
+        "- 重要说明：本报告用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。",
+        "",
+        "### 硬规则",
         "",
     ]
-)
+
+    for rule in ANTI_HALLUCINATION_RULES:
+        lines.append(f"- {rule}")
+
+    lines.extend(
+        [
+            "",
+            "### 交叉验证流程",
+            "",
+            "- SA 数据矛盾：检查新闻、行情、持仓建议之间是否互相冲突。",
+            "- SB 信息缺口：如果没有新闻、没有行情或缺少公告来源，必须标注数据不足。",
+            "- SC 来源登记：报告记录数据源状态，不把无来源内容写成事实。",
+            "- SD 检索关键词：为每个标的登记后续可人工复核的关键词。",
+            "",
+        ]
+    )
+
     if not assessments:
-        lines.append("| 未配置持仓 | - | - | 0 | 0 | 0 | - | - | 请在 `configs/portfolio.yaml` 中添加持仓。 |")
     for row in assessments:
         lines.append(
             "| "
