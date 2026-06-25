@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import re
 import xml.etree.ElementTree as ET
-from datetime import UTC, datetime
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from importlib.util import find_spec
 from typing import Any
@@ -111,20 +111,32 @@ def _fetch_google_news_rss(query: str, max_items: int, language: str, country: s
     except Exception:
         return []
 
-    rows: list[FinanceNewsItem] = []
+       rows: list[FinanceNewsItem] = []
     for node in root.findall(".//item")[:max_items]:
         title = _text(node.findtext("title"))
-        if published is None:
-    continue
-
-if published < datetime.now(timezone.utc) - timedelta(days=3):
-    continue
         link = _text(node.findtext("link"))
         published = _parse_rss_date(_text(node.findtext("pubDate")))
+
+        if published is None:
+            continue
+
+        if published < datetime.now(timezone.utc) - timedelta(days=3):
+            continue
+
         source_node = node.find("source")
         source = _text(source_node.text if source_node is not None else "Google News")
+
         if title and link:
-            rows.append(FinanceNewsItem(title=title, url=link, source=source or "Google News", published_at=published, summary=_text(node.findtext("description")), raw_metadata={"collector": "google_news_rss"}))
+            rows.append(
+                FinanceNewsItem(
+                    title=title,
+                    url=link,
+                    source=source or "Google News",
+                    published_at=published,
+                    summary=_text(node.findtext("description")),
+                )
+            )
+
     return rows
 
 
