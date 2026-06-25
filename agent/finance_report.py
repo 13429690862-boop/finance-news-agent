@@ -7,6 +7,14 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
+from agent.analysis_rules import (
+    ANALYST_PERSONA,
+    ANTI_HALLUCINATION_RULES,
+    build_verification_result,
+    explain_risk_level,
+    explain_trend,
+)
+
 from agent.finance_models import FinanceNewsItem, HoldingAssessment
 def _fmt_number(value: float | None) -> str:
     if value is None:
@@ -30,25 +38,31 @@ def generate_finance_markdown_report(
     path = Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     lines: list[str] = [
-        "# 持仓利好/利空消息与理财建议日报",
+    "# 持仓利好/利空消息与理财建议日报",
+    "",
+    "## 分析师角色与反幻觉规则",
+    "",
+    f"- 角色设定：{ANALYST_PERSONA}",
+    "- 重要说明：本报告用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。",
+    "",
+    "### 硬规则",
+    "",
+]
+    for rule in ANTI_HALLUCINATION_RULES:
+    lines.append(f"- {rule}")
+
+lines.extend(
+    [
         "",
-        f"生成时间：{datetime.now(UTC).replace(microsecond=0).isoformat().replace('+00:00', 'Z')}",
+        "### 交叉验证流程",
         "",
-        "> 说明：本报告基于公开新闻标题/摘要和规则模型生成，仅用于投资研究辅助，不构成保证收益、个性化适当性结论或强制买卖指令。重大决策前请结合公告、财报、估值、流动性、仓位和个人风险承受能力复核。",
+        "- SA 数据矛盾：检查新闻、行情、持仓建议之间是否互相冲突。",
+        "- SB 信息缺口：如果没有新闻、没有行情或缺少公告来源，必须标注数据不足。",
+        "- SC 来源登记：报告记录数据源状态，不把无来源内容写成事实。",
+        "- SD 检索关键词：为每个标的登记后续可人工复核的关键词。",
         "",
-        "## 组合概览",
-        "",
-        f"- 持仓数量：{summary.get('holding_count', 0)}",
-        f"- 高风险观察持仓：{summary.get('high_risk_holding_count', 0)}",
-        f"- 中风险观察持仓：{summary.get('medium_risk_holding_count', 0)}",
-        f"- 市场消息面：{summary.get('market_tone', '中性')}",
-        f"- 市场利好/利空/中性消息：{summary.get('market_positive_news_count', 0)} / {summary.get('market_negative_news_count', 0)} / {summary.get('market_neutral_news_count', 0)}",
-        "",
-        "## 持仓建议摘要",
-        "",
-        "| 标的 | 类型 | 市场 | 利好 | 利空 | 净分 | 风险 | 建议动作 | 建议 |",
-        "| --- | --- | --- | ---: | ---: | ---: | --- | --- | --- |",
     ]
+)
     if not assessments:
         lines.append("| 未配置持仓 | - | - | 0 | 0 | 0 | - | - | 请在 `configs/portfolio.yaml` 中添加持仓。 |")
     for row in assessments:
@@ -119,8 +133,8 @@ def generate_finance_markdown_report(
                     f"- 近 20 日涨跌幅：{_fmt_percent(signal.change_20d)}",
                     f"- MA5 / MA20 / MA60：{_fmt_number(signal.ma5)} / {_fmt_number(signal.ma20)} / {_fmt_number(signal.ma60)}",
                     f"- 近 20 日波动率：{_fmt_percent(signal.volatility_20d)}",
-                    f"- 趋势判断：{signal.trend}",
-                    f"- 技术风险：{signal.risk_level}",
+                    f"- 趋势判断：{signal.trend}。通俗解释：{explain_trend(signal.trend)}",
+                    f"- 技术风险：{signal.risk_level}。通俗解释：{explain_risk_level(signal.risk_level)}",
                     f"- 参考支撑位：{_fmt_number(signal.support)}",
                     f"- 参考压力位：{_fmt_number(signal.resistance)}",
                     f"- 分析师视角：{signal.analyst_view}",
