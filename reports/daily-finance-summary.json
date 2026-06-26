@@ -1,103 +1,73 @@
 {
-  "assessments": [
-    {
-      "action": "hold",
-      "advice": "维持纪律：消息面不足以支持重大调整，按既定资产配置和风险承受能力执行。",
-      "asset_type": "fund",
-      "market": "CN-A",
-      "name": "通达股份",
-      "negative_count": 0,
-      "net_sentiment_score": 0,
-      "neutral_count": 0,
-      "positive_count": 0,
-      "rationale": [
-        "近期消息面没有形成明确方向，维持纪律化观察。"
-      ],
-      "risk_level": "low",
-      "symbol": "1392",
-      "top_negative_news": [],
-      "top_neutral_news": [],
-      "top_positive_news": []
-    },
-    {
-      "action": "hold",
-      "advice": "维持纪律：消息面不足以支持重大调整，按既定资产配置和风险承受能力执行。",
-      "asset_type": "fund",
-      "market": "CN-ETF",
-      "name": "半导体ETF南方",
-      "negative_count": 0,
-      "net_sentiment_score": 0,
-      "neutral_count": 0,
-      "positive_count": 0,
-      "rationale": [
-        "近期消息面没有形成明确方向，维持纪律化观察。"
-      ],
-      "risk_level": "low",
-      "symbol": "159325",
-      "top_negative_news": [],
-      "top_neutral_news": [],
-      "top_positive_news": []
-    },
-    {
-      "action": "hold",
-      "advice": "维持纪律：消息面不足以支持重大调整，按既定资产配置和风险承受能力执行。",
-      "asset_type": "fund",
-      "market": "CN-ETF",
-      "name": "芯片ETF广发",
-      "negative_count": 0,
-      "net_sentiment_score": 0,
-      "neutral_count": 0,
-      "positive_count": 0,
-      "rationale": [
-        "近期消息面没有形成明确方向，维持纪律化观察。"
-      ],
-      "risk_level": "low",
-      "symbol": "159325",
-      "top_negative_news": [],
-      "top_neutral_news": [],
-      "top_positive_news": []
-    },
-    {
-      "action": "rebalance",
-      "advice": "再平衡：仓位集中度偏高时，优先考虑分散到低相关资产或现金类资产。",
-      "asset_type": "fund",
-      "market": "CN-A",
-      "name": "杭电股份",
-      "negative_count": 0,
-      "net_sentiment_score": 0,
-      "neutral_count": 0,
-      "positive_count": 0,
-      "rationale": [
-        "近期消息面没有形成明确方向，维持纪律化观察。",
-        "目标权重 66% 高于单一资产参考上限 25%。"
-      ],
-      "risk_level": "low",
-      "symbol": "603618",
-      "top_negative_news": [],
-      "top_neutral_news": [],
-      "top_positive_news": []
-    }
-  ],
-  "disclaimer": "Rule-based research aid only; not guaranteed returns or individualized suitability advice.",
-  "generated_at": "2026-06-25T03:48:21Z",
-  "market_news": [],
-  "source_status": {
-    "gdelt": {
-      "count": 0,
-      "status": "ok"
-    },
-    "google_news_rss": {
-      "count": 0,
-      "status": "ok"
-    }
-  },
+  "generated_at": "2026-06-26T05:28:52+00:00",
   "summary": {
-    "high_risk_holding_count": 0,
     "holding_count": 4,
+    "high_risk_holding_count": 0,
+    "medium_risk_holding_count": 0,
+    "market_positive_news_count": 0,
     "market_negative_news_count": 0,
     "market_neutral_news_count": 0,
-    "market_positive_news_count": 0,
-    "market_tone": "中性",
-    "medium_risk_holding_count": 0
-  }
+    "market_tone": "中性"
+  },
+  "source_status": {
+    "google_news_rss": {
+      "status": "ok",
+      "count": 0
+    },
+    "gdelt": {
+      "status": "ok",
+      "count": 0
+    }
+  },
+  "assessments": [
+    {
+      "name": "通达股份",
+      "symbol": "1392",
+      "asset_type": "fund",
+      "market": "CN-A",
+      "positive_count": 0,
+      "negative_count": 0,
+      "net_sentiment_score": 0,
+      "risk_level": "low",
+      "action": "hold",
+      "advice": "结论：通达股份（1392）暂以持有观察为主。原因：当前可验证消息不足，不能仅凭新闻面做加减仓判断。当前配置目标仓位为 5%，后续建议应围绕这个比例做再平衡，而不是根据单条新闻频繁交易。风险解释：风险等级较低，说明当前数据没有显示明显异常，但这不代表没有风险。资产特征：基金/ETF更适合结合趋势、估值、跟踪指数和组合配置做再平衡，不建议过度短线交易。复核条件：后续重点看三项：第一，仓位是否超过原计划；第二，价格是否跌破关键均线或支撑位；第三，是否有正式公告、业绩变化或政策变化。反幻觉说明：如果缺少可靠新闻、公告或行情数据，本报告不会编造原因，而应标注数据不足或 [UNSOURCED]。"
+    },
+    {
+      "name": "半导体ETF南方",
+      "symbol": "159325",
+      "asset_type": "fund",
+      "market": "CN-ETF",
+      "positive_count": 0,
+      "negative_count": 0,
+      "net_sentiment_score": 0,
+      "risk_level": "low",
+      "action": "hold",
+      "advice": "结论：半导体ETF南方（159325）暂以持有观察为主。原因：当前可验证消息不足，不能仅凭新闻面做加减仓判断。当前配置目标仓位为 10%，后续建议应围绕这个比例做再平衡，而不是根据单条新闻频繁交易。风险解释：风险等级较低，说明当前数据没有显示明显异常，但这不代表没有风险。资产特征：基金/ETF更适合结合趋势、估值、跟踪指数和组合配置做再平衡，不建议过度短线交易。复核条件：后续重点看三项：第一，仓位是否超过原计划；第二，价格是否跌破关键均线或支撑位；第三，是否有正式公告、业绩变化或政策变化。反幻觉说明：如果缺少可靠新闻、公告或行情数据，本报告不会编造原因，而应标注数据不足或 [UNSOURCED]。"
+    },
+    {
+      "name": "芯片ETF广发",
+      "symbol": "159325",
+      "asset_type": "fund",
+      "market": "CN-ETF",
+      "positive_count": 0,
+      "negative_count": 0,
+      "net_sentiment_score": 0,
+      "risk_level": "low",
+      "action": "hold",
+      "advice": "结论：芯片ETF广发（159325）暂以持有观察为主。原因：当前可验证消息不足，不能仅凭新闻面做加减仓判断。当前配置目标仓位为 5%，后续建议应围绕这个比例做再平衡，而不是根据单条新闻频繁交易。风险解释：风险等级较低，说明当前数据没有显示明显异常，但这不代表没有风险。资产特征：基金/ETF更适合结合趋势、估值、跟踪指数和组合配置做再平衡，不建议过度短线交易。复核条件：后续重点看三项：第一，仓位是否超过原计划；第二，价格是否跌破关键均线或支撑位；第三，是否有正式公告、业绩变化或政策变化。反幻觉说明：如果缺少可靠新闻、公告或行情数据，本报告不会编造原因，而应标注数据不足或 [UNSOURCED]。"
+    },
+    {
+      "name": "杭电股份",
+      "symbol": "603618",
+      "asset_type": "fund",
+      "market": "CN-A",
+      "positive_count": 0,
+      "negative_count": 0,
+      "net_sentiment_score": 0,
+      "risk_level": "low",
+      "action": "rebalance",
+      "advice": "结论：杭电股份（603618）建议从组合角度做再平衡。原因：当前问题不一定来自单个标的本身，而可能来自仓位集中、行业相关性过高或同类资产重复配置。当前配置目标仓位为 66%，后续建议应围绕这个比例做再平衡，而不是根据单条新闻频繁交易。风险解释：风险等级较低，说明当前数据没有显示明显异常，但这不代表没有风险。操作纪律：优先检查该标的及同赛道资产合计占比。如果同类资产占比过高，可以逐步分散到低相关资产或现金类资产。通俗理解：再平衡不是看空，而是避免组合被单一方向拖累。"
+    }
+  ],
+  "market_news": []
 }
