@@ -1,0 +1,78 @@
+name: Market Session Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      session:
+        description: "Session to run"
+        required: true
+        default: "auto"
+        type: choice
+        options:
+          - auto
+          - open
+          - intraday
+          - close
+
+  schedule:
+    # 北京时间 09:20，盘前
+    - cron: "20 1 * * 1-5"
+    # 北京时间 10:30、13:30、14:30，盘中
+    - cron: "30 2,5,6 * * 1-5"
+    # 北京时间 15:10，盘尾
+    - cron: "10 7 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  market-session:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Decide session
+        id: decide
+        run: |
+          INPUT_SESSION="${{ github.event.inputs.session }}"
+          if [ -z "$INPUT_SESSION" ]; then
+            INPUT_SESSION="auto"
+          fi
+          echo "session=$INPUT_SESSION" >> "$GITHUB_OUTPUT"
+
+      - name: Run market session analysis
+        run: |
+          python -m agent.market_session_analysis --session "${{ steps.decide.outputs.session }}"
+
+      - name: Send market session email
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          REPORT_RECIPIENT: ${{ secrets.REPORT_RECIPIENT }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          REPORT_SUBJECT: 盘面分析报告
+          REPORT_PATH: reports/market-session-report.md
+        run: |
+          python -m agent.email_sender
+
+      - name: Commit generated reports
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add reports/
+          git commit -m "update market session report" || echo "No report changes"
+          git push
