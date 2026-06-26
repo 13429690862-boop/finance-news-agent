@@ -14,11 +14,11 @@ def send_report_email() -> None:
     mail_from = os.environ.get("MAIL_FROM", smtp_username)
     subject = os.environ.get("REPORT_SUBJECT", "每日理财消息面报告")
 
-    report_path = Path("reports/daily-finance-report.md")
-    summary_path = Path("reports/daily-finance-summary.json")
+    report_path = Path(os.environ.get("REPORT_PATH", "reports/daily-finance-report.md"))
+    summary_path = Path(os.environ.get("SUMMARY_PATH", "reports/daily-finance-summary.json"))
 
     if not report_path.exists():
-        raise FileNotFoundError("reports/daily-finance-report.md 不存在，请先生成报告。")
+        raise FileNotFoundError(f"{report_path} 不存在，请先生成报告。")
 
     report_text = report_path.read_text(encoding="utf-8")
 
@@ -28,24 +28,21 @@ def send_report_email() -> None:
     message["Subject"] = subject
     message.set_content(report_text)
 
-    # 附件 1：Markdown 日报
     message.add_attachment(
         report_text.encode("utf-8"),
         maintype="text",
         subtype="markdown",
-        filename="daily-finance-report.md",
+        filename=report_path.name,
     )
 
-    # 附件 2：JSON 摘要
     if summary_path.exists():
         message.add_attachment(
             summary_path.read_bytes(),
             maintype="application",
             subtype="json",
-            filename="daily-finance-summary.json",
+            filename=summary_path.name,
         )
 
-    # 附件 3：邮箱财经摘要，如果存在就一起发送
     extra_paths = [
         Path("reports/inbox-finance-digest.md"),
     ]
