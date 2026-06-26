@@ -66,7 +66,26 @@ def generate_finance_markdown_report(
     )
 
     if not assessments:
-    for row in assessments:
+        lines.append("| 暂无持仓建议 | - | - | 0 | 0 | 0 | - | - | 请在 configs/portfolio.yaml 中添加持仓。 |")
+    else:
+        for row in assessments:
+            lines.append(
+                "| "
+                + " | ".join(
+                    [
+                        f"{_cell(row.name)}（{_cell(row.symbol)}）",
+                        _cell(row.asset_type),
+                        _cell(row.market),
+                        str(row.positive_count),
+                        str(row.negative_count),
+                        str(row.net_sentiment_score),
+                        _cell(row.risk_level),
+                        _cell(row.action),
+                        _cell(row.advice),
+                    ]
+                )
+                + " |"
+            )
         lines.append(
             "| "
             + " | ".join(
